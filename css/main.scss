@@ -17,14 +17,14 @@ $brand-primary: $main-color;
 $link-color: #1976d2;
 $link-hover-color: lighten($link-color, 30%);
 
-$font-family-base: Cousine, monospace;
-$font-size-base: 14px;
+$font-family-base: "Noticia Text", serif;
+$font-size-base: 16px;
 $line-height-base: 1.8;
 
-$headings-font-family: "Roboto Mono", monospace;
-$font-size-h1: $font-size-base;
-$font-size-h2: $font-size-base;
-$font-size-h3: $font-size-base;
+$headings-font-family: "Noticia Text", serif;
+$font-size-h1: $font-size-base*2;
+$font-size-h2: $font-size-base*1.5;
+$font-size-h3: $font-size-base*1.2;
 $font-size-h4: $font-size-base;
 
 // header
@@ -43,7 +43,7 @@ $footer_padding_bottom: 1em;
 
 pre { border: 1px dashed #c7254e; }
 button, .btn { text-transform: uppercase; letter-spacing: 1px; }
-h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 5px; border-bottom: 1px dashed $gray-light;  }
+h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; padding-bottom: 5px; }
 .site-menu { color: $link-color; }
 .site-menu a:hover { color: #fff; }
 

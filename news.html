@@ -14,8 +14,8 @@ cover: hình ảnh cho mục tin tức không nên dùng slideshow
 		{% for post in site.posts | where: "type", "news" | limit: 10 %}
 			<li>
 				<img class="img-responsive" src="{{ post.preview }}">
-				<p>{{ post.title }}</p>
-				<p><a href="{{ post.url }}">xem chi tiết...</a></p>
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.summary }}. <a href="{{ post.url }}">xem chi tiết...</a></p>
 			</li>
 		{% endfor %}
 		</ul>
