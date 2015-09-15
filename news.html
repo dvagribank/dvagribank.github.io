@@ -1,0 +1,37 @@
+---
+layout: default
+nav: true
+nav_title: "tin tức"
+s: 13
+
+cover: hình ảnh cho mục tin tức không nên dùng slideshow
+---
+{% include dv_header_small.html %}
+
+<div class="row">
+	<div class="col-xs-12 col-sm-8">
+		<ul class="list-unstyled">
+		{% for post in site.posts | where: "type", "news" | limit: 10 %}
+			<li>
+				<img class="img-responsive" src="{{ post.preview }}">
+				<p>{{ post.title }}</p>
+				<p><a href="{{ post.url }}">xem chi tiết...</a></p>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-xs-12 col-sm-4">
+		{% include dv_sidebar.html %}
+	</div>
+</div>
+
+Trang tin tức, trình bày dạng có sidebar
+<hr>
+sidebar link: hoạt động nội bộ, hoạt động ngành, hoạt động xã hội, hoạt động văn nghệ, thể thao...
+<hr>
+sidebar gallery: một số gallery hình ảnh
+<hr>
+{% include modul_intro.html %}
+{% include modul_bottom.html %}
+{% include site_footer.html %}

@@ -1,0 +1,7 @@
+{% assign menu_items = site.pages | where: "nav", true | sort: "s" %}
+
+<ul class="list-inline">
+{% for item in menu_items %}
+	<li><a href="{{ item.url }}">{{ item.nav_title }}</a></li>
+{% endfor %}
+</ul>

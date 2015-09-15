@@ -1,0 +1,14 @@
+intro module: 3 cột giới thiệu 3 dịch vụ chính: dịch vụ ngân quỹ, dịch vụ in ấn, dịch vụ quảng cáo.
+
+{% assign intro_items = site.pages | where: "pos", "intro" | sort: "sort" %}
+<div class="row">
+	{% for item in intro_items %}
+	<div class="col-xs-12 col-sm-4 text-center">
+		<img class="img-responsive" src="{{ item.preview }}">
+		<h2 class="intro_item_title">{{ item.title }}</h2>
+		<p class="intro_item_desc">{{ item.desc }}</p>
+		<p><a href="{{ item.permalink }}">xem chi tiết</a></p>
+	</div>
+	{% endfor %}
+</div>
+<hr>

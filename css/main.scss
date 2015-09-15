@@ -1,0 +1,77 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// main color
+$main-color: #333;
+$brown: #A66E6E;
+
+//replace bootstrap default variables
+$body-bg: #f5f5f5;
+$border-radius-base: 0px;
+$border-radius-large: 0px;
+$border-radius-small: 0px;
+
+$brand-primary: $main-color;
+$link-color: #1976d2;
+$link-hover-color: lighten($link-color, 30%);
+
+$font-family-base: Cousine, monospace;
+$font-size-base: 14px;
+$line-height-base: 1.8;
+
+$headings-font-family: "Roboto Mono", monospace;
+$font-size-h1: $font-size-base;
+$font-size-h2: $font-size-base;
+$font-size-h3: $font-size-base;
+$font-size-h4: $font-size-base;
+
+// header
+$header_background: $main-color;
+$header_text: #fff;
+$header_padding_top: 2em;
+$header_padding_bottom: 2em;
+
+//footer
+$footer_background: $main-color;
+$footer_text: #fff;
+$footer_padding_top: 2em;
+$footer_padding_bottom: 1em;
+
+@import "bootstrap";
+
+pre { border: 1px dashed #c7254e; }
+button, .btn { text-transform: uppercase; letter-spacing: 1px; }
+h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 5px; border-bottom: 1px dashed $gray-light;  }
+.site-menu { color: $link-color; }
+.site-menu a:hover { color: #fff; }
+
+header { 
+	background: $header_background; 
+	color: $header_text;
+	padding-top: $header_padding_top;
+	padding-bottom: $header_padding_bottom;
+}
+
+footer { 
+	background: $footer_background; 
+	color: $footer_text;
+	padding-top: $footer_padding_top;
+	padding-bottom: $footer_padding_bottom;
+}
+
+.modul { padding: 3em 0; }
+.modul_lead { font-size: 5em; }
+.blog_post_title { line-height: 1.4em; }
+.blog_post_date { color: $brown; }
+.blog_post_tags { color: #ccc; font-weight: normal; }
+
+.single_page_title { padding-top: 3em; }
+
+.post { 
+    padding: 3em 0;
+    .post-title { color: $brown; }
+}
+
+.sample_bigtext { font-size: 1.6em; color: red; }

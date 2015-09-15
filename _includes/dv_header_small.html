@@ -1,0 +1,14 @@
+<hr>
+{% if page.slideshow %}
+	{% for item in page.slideshow %}
+	<div>slide: {{ item.url }}</div>
+	{% endfor %}
+{% elsif page.cover %}
+	<div>{{ page.cover }}</div>
+{% else %}
+	<div>{{ site.cover }}</div>
+{% endif %}
+
+<hr>
+{% include site_nav.html %}
+<hr>

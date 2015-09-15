@@ -1,0 +1,70 @@
+---
+layout: default
+type: gallery
+
+title: "hinh anh gallery 1"
+desc: "gioi thieu qua ve noi dung hinh anh trong gallery"
+
+gallery_preview: http://placehold.it/600x400
+permalink: /gallery/gallery_01/
+
+photos:
+- caption: "hinh anh 1"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 2"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 3"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 4"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 5"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 6"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 7"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 8"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 9"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+
+- caption: "hinh anh 10"
+  preview: http://placehold.it/600x400
+  full: http://placehold.it/1000x700
+---
+
+{% include dv_header_small.html %}
+
+<ul class="row list-unstyled">
+{% for item in page.photos %}
+<li class="col-xs-6">
+	<a href="{{ item.full }}"><img class="img-responsive" src="{{ item.preview }}" alt="{{ item.caption }}"></a>
+	<p class="photo_caption">{{ item.caption }}</p>
+</li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
+
+
