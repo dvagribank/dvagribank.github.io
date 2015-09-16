@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_small_header
 type: news
 group: "văn nghệ, thể thao"
 title: "Đoàn thể thao công ty Dịch vụ Agribank giành giải nhất hội thao ngành ngân hàng"

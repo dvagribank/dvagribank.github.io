@@ -1,4 +1,5 @@
-<hr>
+<header class="header header_small">
+
 {% if page.slideshow %}
 	{% for item in page.slideshow %}
 	<div>slide: {{ item.url }}</div>
@@ -9,6 +10,5 @@
 	<div>{{ site.cover }}</div>
 {% endif %}
 
-<hr>
+</header>
 {% include site_nav.html %}
-<hr>
