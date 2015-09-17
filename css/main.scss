@@ -32,6 +32,7 @@ $font-size-h4: $font-size-base;
 
 .hr-topbar { display: block; height: 2em; background: darken($brand-primary,10%); }
 .hr-primary { display: block; padding: 1em 0; width: 100%; height: 1px; border-bottom: 1px solid $brand-primary; }
+.hr-small { display: block; padding: 1em 0; width: 250px; height: 1px; border-bottom: 1px solid $brand-primary; }
 
 
 header { 
@@ -110,3 +111,28 @@ footer {
 	padding-top: 2em;
 	padding-bottom: 3em;
 }
+
+// trang ngan quy
+
+.nq_title {
+	margin: 0;
+	margin-top: 3em;
+	padding: 1em 0;
+	text-transform: uppercase;
+}
+.nq_info {
+	background: #eee;
+	padding: 1em 0;
+}
+.nq_images {
+	margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
+

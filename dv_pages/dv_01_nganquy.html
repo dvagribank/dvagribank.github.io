@@ -13,27 +13,62 @@ slideshow:
 - url: hình ảnh dịch vụ ngân quỹ 2
 - url: hình ảnh dịch vụ ngân quỹ 3
 ---
-<div class="container">
-Nội dung trang {{ page.headline }}
 
-<hr>
-Đoạn giới thiệu ngắn
-<hr>
-Hình ảnh 2 trung tâm ngân quỹ bắc & nam chia thành 2 cột.
-<hr>
-Lợi ích của k/h khi sử dụng dv: làm dạng slideshow giống như cách trình bày phần nhận xét của khách hàng
-<hr>
-Cơ sở vật chất, trang thiết bị: 8 ảnh
-<hr>
-Ban điều hành: 4 ảnh
-<hr>
-hoạt động tiếp quỹ: 12 ảnh
-<hr>
-hoạt động kiểm đếm: 12 ảnh
-<hr>
-tiếp quỹ ATM: 4 ảnh
-<hr>
+<div class="container">
+	<div class="row">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+		<p class="introtext text-primary text-center">Hai trung tâm ngân quỹ của công ty tại Hà Nội và TP. Hồ Chí Minh đang đảm bảo tiếp quỹ cho hoạt động của 220 điểm giao dịch và chi nhánh cấp I, 196 máy ATM tính đến thời điểm tháng 6/2013</p>
+	</div>
+	</div>
+
+	<div class="hr-small center-block"></div>
+
+	<div class="row">
+	{% for nq in site.data.nganquy %}
+		<div class="col-xs-12 col-sm-6 text-center">
+			<h3 class="nq_title bg-primary">{{ nq.title }}</h3>
+			<img class="img-responsive" src="{{ nq.image }}">
+			<div class="nq_info">
+				<p>Địa chỉ:<br>{{ nq.address }}</p>
+				<p>Điện thoại: {{ nq.phone }}</p>
+				<p>Fax: {{ nq.fax }}</p>				
+				<p>Email: {{ nq.email }}</p>				
+			</div>
+			{% if nq.links %}{% for link in nq.links %}
+			<ul class="nq_link list-unstyled">
+				<li><a href="{{ link.linkto }}">{{ link.name }}</a></li>
+			</ul>
+			{% endfor %}{% endif %}
+		</div>
+	{% endfor %}
+	</div>
+
+	<hr>
+
+	<div class="row">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+	<h4 class="section_title">Lợi ích đối với khách hàng sử dụng dịch vụ</h4>
+	<p class="client_comment">làm dạng slideshow giống như cách trình bày phần nhận xét của khách hàng</p>
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="row text-center">
+	{% for record in site.data.nganquy_data_img %}
+		<h3 class="section_title">{{ record.name }}</h3>
+		{% if record.images %}{% for img in record.images %}
+		<div class="col-xs-6 col-sm-3 nq_images">
+			<a href="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
+		</div>
+		{% endfor %}{% endif %}
+		<p class="clearfix" style="color:#eee;"><i class="fa fa-chevron-down"></i></p>
+	{% endfor %}
+	</div>
 </div>
+
+<div class="hr-primary"></div>
+
 {% include modul_intro.html %}
 {% include modul_customer.html %}
 {% include modul_bottom.html %}

@@ -1,0 +1,130 @@
+- name: "cơ sở vật chất, trang thiết bị"
+  images:
+  - caption: "img1"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img5"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img6"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img7"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img8"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+- name: "ban điều hành"
+  images:
+  - caption: "img1"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+- name: "hoạt động tiếp quỹ"
+  images:
+  - caption: "img01"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img09"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img10"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img11"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img12"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+- name: "hoạt động kiểm đếm"
+  images:
+  - caption: "img01"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img09"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img10"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img11"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img12"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+- name: "tiếp quỹ atm"
+  images:
+  - caption: "img1"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: http://placehold.it/500x300
+    full: http://placehold.it/1000x700

@@ -1,0 +1,23 @@
+- title: "dịch vụ ngân quỹ miền bắc"
+  image: http://placehold.it/800x500
+  address: "số 10 Chùa Bộc, Quận Đống Đa, Hà Nội"
+  phone: phone
+  fax: fax
+  email: email
+  links:
+  - name: "thư ngỏ"
+    linkto: "#"
+  - name: "khách hàng truyền thống"
+    linkto: "#"
+
+- title: "dịch vụ ngân quỹ miền nam"
+  image: http://placehold.it/800x500
+  address: "Số 422 Trần Hưng Đạo, Quận 5, TP.HCM"
+  phone: phone
+  fax: fax
+  email: email
+  links:
+  - name: "thư ngỏ"
+    linkto: "#"
+  - name: "khách hàng truyền thống"
+    linkto: "#"
