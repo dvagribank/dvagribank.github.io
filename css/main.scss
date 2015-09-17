@@ -30,6 +30,9 @@ $font-size-h4: $font-size-base;
 
 @import "bootstrap";
 
+.hr-topbar { display: block; height: 2em; background: darken($brand-primary,10%); }
+.hr-primary { display: block; padding: 1em 0; width: 100%; height: 1px; border-bottom: 1px solid $brand-primary; }
+
 
 header { 
 	background: $brand-primary; 
@@ -42,8 +45,65 @@ header {
 .header_small {
 	min-height: 20em;
 }
+.navbar-inner .nav {
+	float: none;
+	li { display:inline-block; }
+}
 
 
+
+// sections
+
+.section_title {
+	font-family: "roboto", sans-serif;
+	font-weight: 500;
+	color: $brand-primary;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-bottom: 1em;
+}
+
+.section_intro {
+	padding: 2em 0 5em;
+}
+
+.section_video {
+	background: #eee;
+	.dv_video {
+		background: $brand-secondary;
+		color: lighten($brand-secondary, 20%);
+		padding: 15em 0;
+	}
+}
+
+.section_customer {
+	padding: 5em 0;
+	background: #ddd;
+	.client_comment {
+		font-style: italic;
+		font-size: 1.6em;
+		color: $brand-secondary;
+	}
+}
+
+.introtext { padding-top: 3em; }
+.section_news {
+	padding: 2em 0 5em;
+	.news_title {
+		font-weight: bold;
+		line-height: 1.4em;
+	}
+}
+
+.section_btm {
+	background: $brand-secondary;
+	color: #fff;
+	padding: 5em 0;
+	.btm_title {
+		padding-bottom: 0.5em;
+		border-bottom: 1px solid #fff;
+	}
+}
 footer { 
 	background: $brand-primary; 
 	color: #fff;

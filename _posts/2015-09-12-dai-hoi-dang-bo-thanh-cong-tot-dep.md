@@ -1,5 +1,5 @@
 ---
-layout: page_small_header
+layout: news
 type: news
 group: "hoạt động nội bộ"
 title: "Đại hội Đảng bộ công ty Dịch vụ Agribank thành công tốt đẹp"

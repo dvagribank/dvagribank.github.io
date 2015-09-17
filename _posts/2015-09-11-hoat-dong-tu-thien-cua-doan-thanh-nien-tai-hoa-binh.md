@@ -1,5 +1,5 @@
 ---
-layout: page_small_header
+layout: news
 type: news
 group: "hoạt động xã hội"
 title: "Hoạt động từ thiện của Đoàn Thanh niên tại Hoà Bình tháng 12 năm 2014"
