@@ -1,23 +1,23 @@
 - title: "dịch vụ ngân quỹ miền bắc"
   image: http://placehold.it/800x500
   address: "số 10 Chùa Bộc, Quận Đống Đa, Hà Nội"
-  phone: phone
-  fax: fax
-  email: email
+  phone: "04 3573 8137 – 04 3573 5087"
+  fax: "04 3573 6665"
+  email: "ttdvnq@gmail.com"
   links:
   - name: "thư ngỏ"
-    linkto: "#"
+    linkto: "/intro/nq1/gioi_thieu/"
   - name: "khách hàng truyền thống"
-    linkto: "#"
+    linkto: "/intro/nq1/khach_hang/"
 
 - title: "dịch vụ ngân quỹ miền nam"
   image: http://placehold.it/800x500
   address: "Số 422 Trần Hưng Đạo, Quận 5, TP.HCM"
-  phone: phone
-  fax: fax
-  email: email
+  phone: "08 3923 9895"
+  fax: "08 3923 9892"
+  email: "ttdvnq@gmail.com"
   links:
   - name: "thư ngỏ"
-    linkto: "#"
+    linkto: "/intro/nq2/gioi_thieu/"
   - name: "khách hàng truyền thống"
-    linkto: "#"
+    linkto: "/intro/nq2/khach_hang/"

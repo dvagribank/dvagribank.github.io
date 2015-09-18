@@ -2,6 +2,7 @@
 layout: page_small_header
 nav: true
 bottom_nav: true
+intro_side_nav: true
 nav_title: "giới thiệu chung"
 s: 11
 b: 31
@@ -12,12 +13,15 @@ slideshow:
 - url: hình ảnh giới thiệu 3
 ---
 <div class="container">
-<hr>
-Trình bày dạng bài viết bình thường, có sidebar
-<hr>
-sidebar link: giới thiệu chung, lịch sử hoạt động, sơ đồ tổ chức, mạng lưới hoạt động, khách hàng truyền thống
-<hr>
-sidebar news: Tin tức nổi bật (3 bài mới nhất)
+    <div class="row">
+        <div class="col-xs-12 col-sm-8">
+            Trình bày dạng bài viết bình thường, có sidebar
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            {% include dv_intro_sidebar.html %}
+        </div>
+        
+    </div>
 </div>
 {% include modul_video.html %}
 {% include modul_intro.html %}

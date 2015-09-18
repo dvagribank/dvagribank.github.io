@@ -34,26 +34,26 @@ slideshow:
 				<p>Fax: {{ nq.fax }}</p>				
 				<p>Email: {{ nq.email }}</p>				
 			</div>
-			{% if nq.links %}{% for link in nq.links %}
 			<ul class="nq_link list-unstyled">
+			{% if nq.links %}{% for link in nq.links %}
 				<li><a href="{{ link.linkto }}">{{ link.name }}</a></li>
+            {% endfor %}{% endif %}
 			</ul>
-			{% endfor %}{% endif %}
+			
 		</div>
 	{% endfor %}
 	</div>
+</div>
 
-	<hr>
+<section class="section section_profit clearfix">
+    <div class="col-xs-12 text-center nq_profit">
+        <h4 class="section_title">Lợi ích đối với khách hàng sử dụng dịch vụ</h4>
+        <p class="client_comment">làm dạng slideshow giống như cách trình bày phần nhận xét của khách hàng</p>
+    </div>
+</section>
 
-	<div class="row">
-	<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-	<h4 class="section_title">Lợi ích đối với khách hàng sử dụng dịch vụ</h4>
-	<p class="client_comment">làm dạng slideshow giống như cách trình bày phần nhận xét của khách hàng</p>
-	</div>
-	</div>
 
-	<hr>
-
+<div class="container">
 	<div class="row text-center">
 	{% for record in site.data.nganquy_data_img %}
 		<h3 class="section_title">{{ record.name }}</h3>

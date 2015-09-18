@@ -51,6 +51,28 @@ header {
 	li { display:inline-block; }
 }
 
+//sidebar
+.sidebar_title {
+    color: $brand-primary;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+.sidebar_item {
+    margin-bottom: 2em;
+    li { margin-bottom: 0.5em; }
+    a {
+        display: block;
+        padding: 0.5em;
+        background: #eee;
+        color: $brand-primary;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            background: $brand-primary;
+            color: #fff;
+        }
+    }
+}
 
 
 // sections
@@ -78,12 +100,12 @@ header {
 .section_customer {
 	padding: 5em 0;
 	background: #ddd;
-	.client_comment {
-        font-family: "Noticia Text", serif;
-		font-style: italic;
-		font-size: 1.6em;
-		color: $brand-secondary;
-	}
+}
+.client_comment {
+    font-family: "Noticia Text", serif;
+    font-style: italic;
+    font-size: 1.6em;
+    color: $brand-secondary;
 }
 
 .introtext { padding-top: 3em; }
@@ -116,7 +138,7 @@ footer {
 .nq_title {
 	margin: 0;
 	margin-top: 3em;
-	padding: 1em 0;
+    padding: 0.5em 0;
 	text-transform: uppercase;
 }
 .nq_info {
@@ -126,6 +148,27 @@ footer {
 .nq_images {
 	margin-bottom: 1.5em;
 }
+.nq_link {
+    padding-top: 2em;
+    li { margin-bottom: 0.5em; }
+    a {
+        display: block;
+        padding: 0.5em;
+        background: $brand-secondary;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            background: $brand-primary;
+        }
+    }
+}
+.section_profit {
+    background: #ddd;
+    padding: 3em 0;
+    margin: 5em 0;
+}
+    
 
 
 // trang in an
@@ -148,4 +191,16 @@ footer {
 }
 
 
+// trang lien he
 
+.dv_contact {
+    padding-bottom: 5em;
+}
+
+.ct_title {
+	margin: 0;
+	margin-top: 3em;
+    padding: 1em 0;
+	text-transform: uppercase;
+    background: lighten($brand-secondary,70%);
+}
