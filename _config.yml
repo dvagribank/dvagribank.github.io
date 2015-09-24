@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""
 footer_copy: All right reserved.
 
-cover: cover_image # hình ảnh mặc định hiển thị thay cho slideshow nếu không được định nghĩa trong trang.
+cover: /imgs/cover.png
 
 
 # Build settings

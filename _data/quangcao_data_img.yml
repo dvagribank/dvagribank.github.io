@@ -1,38 +1,26 @@
 - name: "một số sản phẩm đã thực hiện"
   images:
   - caption: "img01"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc1.jpg
     full: http://placehold.it/1000x700
   - caption: "img02"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc2.jpg
     full: http://placehold.it/1000x700
   - caption: "img03"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc3.jpg
     full: http://placehold.it/1000x700
   - caption: "img04"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc4.jpg
     full: http://placehold.it/1000x700
   - caption: "img05"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc5.jpg
     full: http://placehold.it/1000x700
   - caption: "img06"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc6.jpg
     full: http://placehold.it/1000x700
   - caption: "img07"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc7.jpg
     full: http://placehold.it/1000x700
   - caption: "img08"
-    preview: http://placehold.it/500x300
-    full: http://placehold.it/1000x700
-  - caption: "img09"
-    preview: http://placehold.it/500x300
-    full: http://placehold.it/1000x700
-  - caption: "img10"
-    preview: http://placehold.it/500x300
-    full: http://placehold.it/1000x700
-  - caption: "img11"
-    preview: http://placehold.it/500x300
-    full: http://placehold.it/1000x700
-  - caption: "img12"
-    preview: http://placehold.it/500x300
+    preview: /imgs/qc/qc8.jpg
     full: http://placehold.it/1000x700

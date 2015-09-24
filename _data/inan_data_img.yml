@@ -50,44 +50,6 @@
   - caption: "img8"
     preview: /imgs/in/gs8.jpg
     full: http://placehold.it/1000x700
-- name: "sản phẩm đặc biệt"
-  images:
-  - caption: "img01"
-    preview: /imgs/in/db1.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img02"
-    preview: /imgs/in/db2.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img03"
-    preview: /imgs/in/db3.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img04"
-    preview: /imgs/in/db4.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img05"
-    preview: /imgs/in/db5.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img06"
-    preview: /imgs/in/db6.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img07"
-    preview: /imgs/in/db7.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img08"
-    preview: /imgs/in/db8.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img09"
-    preview: /imgs/in/db9.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img10"
-    preview: /imgs/in/db10.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img11"
-    preview: /imgs/in/db11.jpg
-    full: http://placehold.it/1000x700
-  - caption: "img12"
-    preview: /imgs/in/db12.jpg
-    full: http://placehold.it/1000x700
 - name: "sổ sách, tạp chí"
   images:
   - caption: "img01"
@@ -151,4 +113,42 @@
     full: http://placehold.it/1000x700
   - caption: "img08"
     preview: /imgs/in/ll8.jpg
+    full: http://placehold.it/1000x700
+- name: "sản phẩm đặc biệt"
+  images:
+  - caption: "img01"
+    preview: /imgs/in/db1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/in/db2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/in/db3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/in/db4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/in/db5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/in/db6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/in/db7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/in/db8.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img09"
+    preview: /imgs/in/db9.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img10"
+    preview: /imgs/in/db10.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img11"
+    preview: /imgs/in/db11.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img12"
+    preview: /imgs/in/db12.jpg
     full: http://placehold.it/1000x700
