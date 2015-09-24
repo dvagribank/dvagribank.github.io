@@ -4,14 +4,15 @@
   {% include site_head.html %}
 
   <body>
-
-    <div class="container">
-
-        {{ content }}
-
-    </div>
+  	<div class="hr-topbar"></div>
+  	{% include dv_header_big.html %}
 
 
+   	{{ content }}
+
+
+
+    {% include site_footer.html %}
     {% include site_script.html %}
 
   </body>

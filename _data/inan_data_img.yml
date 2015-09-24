@@ -1,0 +1,154 @@
+- name: "máy móc thiết bị"
+  images:
+  - caption: "img1"
+    preview: /imgs/in/mm1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: /imgs/in/mm2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: /imgs/in/mm3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: /imgs/in/mm4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img5"
+    preview: /imgs/in/mm5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img6"
+    preview: /imgs/in/mm6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img7"
+    preview: /imgs/in/mm7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img8"
+    preview: /imgs/in/mm8.jpg
+    full: http://placehold.it/1000x700
+- name: "giám sát kỹ thuật in, hoàn thiện, phân loại sản phẩm và otk"
+  images:
+  - caption: "img1"
+    preview: /imgs/in/gs1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: /imgs/in/gs2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: /imgs/in/gs3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: /imgs/in/gs4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img5"
+    preview: /imgs/in/gs5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img6"
+    preview: /imgs/in/gs6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img7"
+    preview: /imgs/in/gs7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img8"
+    preview: /imgs/in/gs8.jpg
+    full: http://placehold.it/1000x700
+- name: "sổ sách, tạp chí"
+  images:
+  - caption: "img01"
+    preview: /imgs/in/ss1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/in/ss2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/in/ss3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/in/ss4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/in/ss5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/in/ss6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/in/ss7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/in/ss8.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img09"
+    preview: /imgs/in/ss9.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img10"
+    preview: /imgs/in/ss10.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img11"
+    preview: /imgs/in/ss11.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img12"
+    preview: /imgs/in/ss12.jpg
+    full: http://placehold.it/1000x700
+- name: "catalogue, lịch và các sản phẩm khác"
+  images:
+  - caption: "img01"
+    preview: /imgs/in/ll1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/in/ll2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/in/ll3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/in/ll4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/in/ll5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/in/ll6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/in/ll7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/in/ll8.jpg
+    full: http://placehold.it/1000x700
+- name: "sản phẩm đặc biệt"
+  images:
+  - caption: "img01"
+    preview: /imgs/in/db1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/in/db2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/in/db3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/in/db4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/in/db5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/in/db6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/in/db7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/in/db8.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img09"
+    preview: /imgs/in/db9.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img10"
+    preview: /imgs/in/db10.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img11"
+    preview: /imgs/in/db11.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img12"
+    preview: /imgs/in/db12.jpg
+    full: http://placehold.it/1000x700

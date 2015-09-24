@@ -1,14 +1,19 @@
-<hr>
+<header class="header header_small">
+
 {% if page.slideshow %}
 	{% for item in page.slideshow %}
 	<div>slide: {{ item.url }}</div>
 	{% endfor %}
 {% elsif page.cover %}
-	<div>{{ page.cover }}</div>
+    <img class="img-responsive" src="{{ page.cover }}" alt="cover image">
 {% else %}
-	<div>{{ site.cover }}</div>
+	<img class="img-responsive" src="{{ site.cover }}" alt="cover image">
 {% endif %}
 
-<hr>
+<div class="hblock">
+   <div class="container">
+    <div class="headline text-center">{{ page.headline }}</div>
+    </div>
+</div>
+</header>
 {% include site_nav.html %}
-<hr>

@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 // main color
-$main-color: #333;
-$brown: #A66E6E;
+$brand-primary: #9C213C;
+$brand-secondary: #133729;
 
 //replace bootstrap default variables
 $body-bg: #f5f5f5;
@@ -13,65 +13,235 @@ $border-radius-base: 0px;
 $border-radius-large: 0px;
 $border-radius-small: 0px;
 
-$brand-primary: $main-color;
 $link-color: #1976d2;
 $link-hover-color: lighten($link-color, 30%);
 
-$font-family-base: "Noticia Text", serif;
+$font-family-base: Roboto, sans-serif;
 $font-size-base: 16px;
 $line-height-base: 1.8;
 
-$headings-font-family: "Noticia Text", serif;
 $font-size-h1: $font-size-base*2;
 $font-size-h2: $font-size-base*1.5;
 $font-size-h3: $font-size-base*1.2;
 $font-size-h4: $font-size-base;
 
-// header
-$header_background: $main-color;
-$header_text: #fff;
-$header_padding_top: 2em;
-$header_padding_bottom: 2em;
-
-//footer
-$footer_background: $main-color;
-$footer_text: #fff;
-$footer_padding_top: 2em;
-$footer_padding_bottom: 1em;
-
 @import "bootstrap";
 
-pre { border: 1px dashed #c7254e; }
-button, .btn { text-transform: uppercase; letter-spacing: 1px; }
-h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; padding-bottom: 5px; }
-.site-menu { color: $link-color; }
-.site-menu a:hover { color: #fff; }
+// mixin
+
+
+
+
+.hr-topbar { display: block; height: 2em; background: $brand-primary; }
+.hr-primary { display: block; padding: 1em 0; width: 100%; height: 1px; border-bottom: 1px solid $brand-primary; }
+.hr_big_red { height: 10px; background: $brand-primary; }
+.hr-small { display: block; padding: 1em 0; width: 250px; height: 1px; border-bottom: 1px solid $brand-primary; }
+
 
 header { 
-	background: $header_background; 
-	color: $header_text;
-	padding-top: $header_padding_top;
-	padding-bottom: $header_padding_bottom;
+	background: $brand-primary; 
+	color: #fff;
+	position: relative;
+    .hblock { 
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .headline {
+            background: transparentize($brand-secondary,0.5);
+            padding: 1em 0;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+    }
+
+}
+.header_big {
+	
+}
+.header_small {
+	max-height: 30em;
+    overflow: hidden;
+
 }
 
+// navigation 
+.navbar { border: none; text-transform: uppercase; }
+.navbar-inner {
+    background: $brand-secondary;
+}
+
+.navbar-inner .nav {
+	float: none;
+	li { display:inline-block; }
+    li a { color: #fff; padding: 1em 1.5em; }
+}
+
+.nav > li > a:hover {
+    background: lighten($brand-secondary,20%);
+}
+.nav .open > a { background: $brand-primary !important; }
+
+.dropdown-menu { background: $brand-primary; }
+ul.dropdown-menu li { display: block; width:100%; }
+ul.dropdown-menu li a:hover { background: lighten($brand-primary,15%); }
+
+
+
+
+
+
+//sidebar
+.sidebar_title {
+    color: $brand-primary;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+.sidebar_item {
+    margin-bottom: 2em;
+    li { margin-bottom: 0.5em; }
+    a {
+        display: block;
+        padding: 0.5em;
+        background: #eee;
+        color: $brand-primary;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            background: $brand-primary;
+            color: #fff;
+        }
+    }
+}
+
+
+// sections
+
+.section_title {
+	color: $brand-primary;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-bottom: 1em;
+}
+
+.section_intro {
+	padding: 2em 0 5em;
+    .intro_item_title { margin: 0; padding: 1em 0; color: #fff; background: $brand-primary; }
+    .intro_item_desc { padding: 2em 0; }
+}
+
+.section_video {
+	background: lighten($brand-secondary,70%);
+	.dv_video {
+		background: $brand-secondary;
+		color: lighten($brand-secondary, 20%);
+		padding: 15em 0;
+	}
+}
+
+.section_customer {
+	padding: 5em 0;
+	background: #ddd;
+}
+.client_comment {
+    font-family: "Noticia Text", serif;
+    font-style: italic;
+    font-size: 1.6em;
+    color: $brand-secondary;
+}
+
+.introtext { padding-top: 3em; }
+.section_news {
+	padding: 2em 0 5em;
+	.news_title {
+		font-weight: bold;
+		line-height: 1.4em;
+	}
+}
+
+.section_btm {
+	background: $brand-secondary;
+	color: #fff;
+	padding: 5em 0;
+	.btm_title {
+		padding-bottom: 0.5em;
+		border-bottom: 1px solid #fff;
+	}
+}
 footer { 
-	background: $footer_background; 
-	color: $footer_text;
-	padding-top: $footer_padding_top;
-	padding-bottom: $footer_padding_bottom;
+	background: $brand-primary; 
+	color: #fff;
+	padding-top: 2em;
+	padding-bottom: 3em;
 }
 
-.modul { padding: 3em 0; }
-.modul_lead { font-size: 5em; }
-.blog_post_title { line-height: 1.4em; }
-.blog_post_date { color: $brown; }
-.blog_post_tags { color: #ccc; font-weight: normal; }
+// trang ngan quy
 
-.single_page_title { padding-top: 3em; }
-
-.post { 
+.nq_title {
+	margin: 0;
+	margin-top: 3em;
+    padding: 0.5em 0;
+	text-transform: uppercase;
+}
+.nq_info {
+	background: #eee;
+	padding: 1em 0;
+}
+.nq_images {
+	margin-bottom: 1.5em;
+}
+.nq_link {
+    padding-top: 2em;
+    li { margin-bottom: 0.5em; }
+    a {
+        display: block;
+        padding: 0.5em;
+        background: $brand-secondary;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            background: $brand-primary;
+        }
+    }
+}
+.section_profit {
+    background: #ddd;
     padding: 3em 0;
-    .post-title { color: $brown; }
+    margin: 5em 0;
+}
+    
+
+
+// trang in an
+.section_flexo {
+    margin-top: 3em;
+    padding: 3em 0;
+    background: #eee;
+}
+.in_flexo_bigimage {
+    margin-bottom: 2em;
+}
+.in_flexo_smallimage {
+    margin-bottom: 1.5em;
 }
 
-.sample_bigtext { font-size: 1.6em; color: red; }
+
+// trang quang cao
+.adv_title {
+    margin-top: 3em;
+}
+
+
+// trang lien he
+
+.dv_contact {
+    padding-bottom: 5em;
+}
+
+.ct_title {
+	margin: 0;
+	margin-top: 3em;
+    padding: 1em 0;
+	text-transform: uppercase;
+    background: lighten($brand-secondary,70%);
+}

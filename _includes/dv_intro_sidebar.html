@@ -1,0 +1,17 @@
+{% assign btm_nav = site.pages | where: "intro_side_nav", true | sort: "b" %}
+<ul class="list-unstyled sidebar_item">
+    {% for item in btm_nav %}
+        <li><a class="sidebar_item_link" href="{{ item.url }}">{{ item.nav_title }}</a></li>
+    {% endfor %}
+</ul>
+
+<div class="hr_big_red"></div>
+<h3 class="sidebar_title">hoạt động nổi bật</h3>
+
+{% for post in site.posts | where: "type", "news" | limit: 3 %}
+<div class="sidebar_news">
+<a href="{{ post.url }}"><img class="img-responsive" src="{{ post.preview }}"></a>
+<h4 class="news_title">{{ post.title }}</h4>
+</div>
+
+{% endfor %}

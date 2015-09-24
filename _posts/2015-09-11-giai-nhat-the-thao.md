@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: news
 type: news
 group: "văn nghệ, thể thao"
-title: "Đoàn thể thao công ty Dịch vụ Agribank giành giải nhất hội thao ngành ngân hàng"
-preview: http://placehold.it/800x500
+title: "Đoàn thể thao công ty giành giải nhất hội thao ngành ngân hàng"
+preview: /imgs/news/thethao_preview.jpg
 summary: "Viết một đoạn ngắn tóm tắt nội dung khoảng 2 dòng ở đây"
 ---
 

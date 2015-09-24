@@ -1,0 +1,106 @@
+- name: "ban điều hành"
+  images:
+  - caption: "img1"
+    preview: /imgs/nq/dieuhanh_1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: /imgs/nq/dieuhanh_2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: /imgs/nq/dieuhanh_3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: /imgs/nq/dieuhanh_4.jpg
+    full: http://placehold.it/1000x700
+- name: "cơ sở vật chất và an toàn kho quỹ"
+  images:
+  - caption: "img1"
+    preview: /imgs/nq/at_1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: /imgs/nq/at_2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: /imgs/nq/at_3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: /imgs/nq/at_4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img5"
+    preview: /imgs/nq/at_5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img6"
+    preview: /imgs/nq/at_6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img7"
+    preview: /imgs/nq/at_7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img8"
+    preview: /imgs/nq/at_8.jpg
+    full: http://placehold.it/1000x700
+- name: "dịch vụ tiếp quỹ"
+  images:
+  - caption: "img01"
+    preview: /imgs/nq/tq1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/nq/tq2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/nq/tq3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/nq/tq4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/nq/tq5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/nq/tq6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/nq/tq7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/nq/tq8.jpg
+    full: http://placehold.it/1000x700
+- name: "dịch vụ kiểm đếm, đóng gói sản phẩm"
+  images:
+  - caption: "img01"
+    preview: /imgs/nq/kd1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img02"
+    preview: /imgs/nq/kd2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img03"
+    preview: /imgs/nq/kd3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img04"
+    preview: /imgs/nq/kd4.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img05"
+    preview: /imgs/nq/kd5.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img06"
+    preview: /imgs/nq/kd6.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img07"
+    preview: /imgs/nq/kd7.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img08"
+    preview: /imgs/nq/kd8.jpg
+    full: http://placehold.it/1000x700
+- name: "tiếp quỹ atm"
+  images:
+  - caption: "img1"
+    preview: /imgs/nq/atm1.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img2"
+    preview: /imgs/nq/atm2.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img3"
+    preview: /imgs/nq/atm3.jpg
+    full: http://placehold.it/1000x700
+  - caption: "img4"
+    preview: /imgs/nq/atm4.jpg
+    full: http://placehold.it/1000x700

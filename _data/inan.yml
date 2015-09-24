@@ -1,0 +1,23 @@
+- title: "Nhà in Ngân hàng I"
+  image: /imgs/in/in_bac.jpg
+  address: "số 10 Chùa Bộc, Quận Đống Đa, Hà Nội"
+  phone: "043 852 5586"
+  fax: "043 852 1861"
+  email: "khkdin@gmai.com"
+  links:
+  - name: "thư ngỏ"
+    linkto: "/intro/in1/gioi_thieu/"
+  - name: "khách hàng truyền thống"
+    linkto: "/intro/in1/khach_hang/"
+
+- title: "Nhà in Ngân hàng II"
+  image: /imgs/in/in_nam.jpg
+  address: "Số 422 Trần Hưng Đạo, Quận 5, TP.HCM"
+  phone: "08 3838 2783 – 3923 4415"
+  fax: "08 3923 4415"
+  email: "nhainnganhang22014@gmail.com - chebaninh2@yahoo.com.vn"
+  links:
+  - name: "thư ngỏ"
+    linkto: "/intro/in2/gioi_thieu/"
+  - name: "khách hàng truyền thống"
+    linkto: "/intro/in2/khach_hang/"

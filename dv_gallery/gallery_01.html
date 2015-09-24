@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_small_header
 type: gallery
 
 title: "hinh anh gallery 1"
@@ -50,8 +50,7 @@ photos:
   full: http://placehold.it/1000x700
 ---
 
-{% include dv_header_small.html %}
-
+<div class="container">
 <ul class="row list-unstyled">
 {% for item in page.photos %}
 <li class="col-xs-6">
@@ -60,6 +59,7 @@ photos:
 </li>
 {% endfor %}
 </ul>
+</div>
 
 
 
