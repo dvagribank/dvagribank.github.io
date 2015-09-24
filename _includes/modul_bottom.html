@@ -1,0 +1,40 @@
+<section class="section section_btm">
+<div class="container">
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-3">
+		<h3 class="btm_title">Về công ty</h3>
+		{% assign btm_nav = site.pages | where: "bottom_nav", true | sort: "b" %}
+		<ul class="list-unstyled">
+		{% for item in btm_nav %}
+		<li><a href="{{ item.url }}">{{ item.nav_title }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<h3 class="btm_title">Gallery</h3>
+		{% assign gall = site.pages | where: "type", "gallery" %}
+		<ul class="row list-unstyled">
+		{% for item in gall %}
+			<li>
+				<div class="col-xs-6 col-sm-5"><a href="{{ item.permalink }}"><img class="img-responsive" src="{{ item.gallery_preview }}" alt="{{ item.title }}"></a></div>
+				<div class="btm_gallery_caption col-xs-6 col-sm-7">
+					<h4>{{ item.title }}</h4>
+					<p>{{ item.desc }}</p>
+				</div>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-xs-12 col-sm-6 col-md-3">
+		<h3 class="btm_title">Liên kết website</h3>
+		<ul class="list-unstyled">
+		{% for item in site.data.links %}
+		<li><a href="{{ item.url }}">{{ item.name }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+</div>
+</section>

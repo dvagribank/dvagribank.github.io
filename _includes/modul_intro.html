@@ -1,0 +1,17 @@
+<section class="section section_intro">
+<div class="container">
+<div class="row">
+	<div class="col-xs-12 text-center">
+		<h3 class="section_title">các dịch vụ công ty cung cấp</h3>
+	</div>
+	{% assign intro_items = site.pages | where: "pos", "intro" | sort: "sort" %}
+	{% for item in intro_items %}
+	<div class="col-xs-12 col-sm-4 text-center">
+        <a href="{{ item.permalink }}"><img class="img-responsive" src="{{ item.preview }}"></a>
+		<h3 class="intro_item_title text-uppercase">{{ item.title }}</h3>
+		<p class="intro_item_desc">{{ item.desc }}<br><br><a class="btn btn-primary" href="{{ item.permalink }}">xem chi tiết</a></p>
+	</div>
+	{% endfor %}
+</div>
+</div>
+</section>

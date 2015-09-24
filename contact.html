@@ -1,0 +1,60 @@
+---
+layout: page_small_header
+nav: true
+bottom_nav: true
+nav_title: "liên hệ"
+s: 14
+b: 36
+
+headline: "liên hệ với chúng tôi"
+---
+<div class="container dv_contact">
+	<div class="row">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+		<p class="introtext text-primary text-center">Xin mời liên hệ tới các bộ phận chức năng nếu quý vị cần thêm thông tin.</p>
+	</div>
+	</div>
+
+	<div class="hr-small center-block"></div>
+
+	<div class="row">
+	{% for nq in site.data.nganquy %}
+		<div class="col-xs-12 col-sm-6 text-center">
+			<h3 class="ct_title">{{ nq.title }}</h3>
+			<div class="nq_info">
+				<p>Điện thoại: {{ nq.phone }}</p>
+				<p>Fax: {{ nq.fax }}</p>				
+				<p>Email: {{ nq.email }}</p>				
+			</div>
+			
+		</div>
+	{% endfor %}
+   
+	{% for in in site.data.inan %}
+		<div class="col-xs-12 col-sm-6 text-center">
+			<h3 class="ct_title">{{ in.title }}</h3>
+			<div class="nq_info">
+				<p>Điện thoại: {{ in.phone }}</p>
+				<p>Fax: {{ in.fax }}</p>				
+				<p>Email: {{ in.email }}</p>				
+			</div>
+		</div>
+	{% endfor %}
+
+	{% for in in site.data.lienhechung %}
+		<div class="col-xs-12 col-sm-4 text-center">
+			<h3 class="ct_title">{{ in.title }}</h3>
+			<div class="nq_info">
+				<p>Điện thoại: {{ in.phone }}</p>
+				<p>Fax: {{ in.fax }}</p>				
+				<p>Email: {{ in.email }}</p>				
+			</div>
+		</div>
+	{% endfor %}
+
+
+    </div>
+</div>
+{% include modul_customer.html %}
+{% include modul_intro.html %}
+{% include modul_bottom.html %}

@@ -1,0 +1,18 @@
+{% assign news_sidebar = site.pages | where: "news_group", true %}
+   <ul class="list-unstyled sidebar_item">
+    {% for item in news_sidebar %}
+        <li><a class="sidebar_item_link" href="{{ item.url }}">{{ item.group_name }}</a></li>
+    {% endfor %}
+</ul>
+
+<div class="hr_big_red"></div>
+<h3 class="sidebar_title">Photo Gallery</h3>
+
+{% assign gall = site.pages | where: "type", "gallery" %}
+{% for item in gall %}
+<div class="sidebar_gallery_item">
+<a href="{{ item.permalink }}"><img class="img-responsive" src="{{ item.gallery_preview }}" alt="{{ item.title }}"></a>
+<h4 class="news_title">{{ item.title }}</h4>
+<p>{{ item.desc }}</p>
+</div>
+{% endfor %}

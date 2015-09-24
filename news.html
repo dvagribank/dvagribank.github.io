@@ -1,0 +1,35 @@
+---
+layout: page_small_header
+nav: true
+nav_title: "tin tức"
+s: 13
+
+headline: "tin tức nổi bật"
+---
+<div class="container">
+<div class="row">
+	<div class="col-xs-12 col-sm-8">
+		<ul class="list-unstyled">
+		{% for post in site.posts | where: "type", "news" | limit: 10 %}
+			<li>
+				<img class="img-responsive" src="{{ post.preview }}">
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.summary }}. <a href="{{ post.url }}">xem chi tiết...</a></p>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-xs-12 col-sm-4">
+		{% include dv_sidebar.html %}
+	</div>
+</div>
+
+Trang tin tức, trình bày dạng có sidebar
+<hr>
+sidebar link: hoạt động nội bộ, hoạt động ngành, hoạt động xã hội, hoạt động văn nghệ, thể thao...
+<hr>
+sidebar gallery: một số gallery hình ảnh
+</div>
+{% include modul_intro.html %}
+{% include modul_bottom.html %}

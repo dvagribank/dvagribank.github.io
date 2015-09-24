@@ -1,0 +1,86 @@
+---
+layout: default
+title: "dịch vụ quảng cáo"
+headline: "dịch vụ quảng cáo"
+desc: "Bộ phận trực thuộc luôn bám sát mục tiêu và hiện thực hoá ý tưởng xây dựng của Agribank. Sản phẩm chất lượng với tính thẩm mỹ cao..."
+pos: intro
+sort: 103
+preview: /imgs/intro/quangcao.jpg
+permalink: /intro/dich_vu_quang_cao/
+
+slideshow:
+- url: hình ảnh dịch vụ quảng cáo 1
+- url: hình ảnh dịch vụ quảng cáo 2
+- url: hình ảnh dịch vụ quảng cáo 3
+---
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="introtext text-primary text-center">{% include text_qc.html %}</div>
+        </div>
+    </div>
+    
+    <div class="hr-small center-block"></div>
+</div>
+
+<section class="section section_profit clearfix">
+   <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center nq_profit">
+        <h4 class="section_title">Các dịch vụ chính:</h4>
+        <p class="client_comment">Thiết kế ý tưởng biển quảng cáo tấm lớn ngoài trời<br>
+Thiết kế, thi công biển hiệu Chi nhánh, các phòng Giao dịch trong hệ thống<br>
+Quảng cáo Thương hiệu Agribank trên nóc các tòa nhà cao tầng các Chi nhánh<br>
+Thiết kế thi công gian hàng triển lãm, hội chợ <br>
+Thiết kế thi công lắp đặt cabin ATM tại Chi nhánh và các phòng Giao dịch </p>
+    </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row text-center">
+        
+        <div class="col-xs-12">
+           <h3 class="nq_title bg-primary">dịch vụ quảng cáo</h3>
+            <img class="img-responsive" src="/imgs/qc/qc_preview.jpg" alt="dich vu quang cao">
+            <div class="nq_info clearfix">
+				<p>Địa chỉ: Số 10 Chùa Bộc, Đống Đa, Hà Nội <i class="fa fa-minus"></i> Điện thoại: phone  <i class="fa fa-minus"></i> Fax: fax <i class="fa fa-minus"></i> Email: email</p>	
+			</div>
+        </div>
+        <p><i class="fa fa-chevron-down"></i></p>
+
+        {% for record in site.data.quangcao_data_img %}
+        <h3 class="section_title">{{ record.name }}</h3> {% if record.images %}{% for img in record.images %}
+        <div class="col-xs-6 col-sm-3 nq_images">
+            <a href="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
+        </div>
+        {% endfor %}{% endif %}
+        <p class="clearfix" style="color:#eee;"><i class="fa fa-chevron-down"></i></p>
+        {% endfor %}
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="introtext text-primary">
+                <h4 class="section_title">Các sản phẩm đã thực hiện trong và ngoài hệ thống Agribank:</h4>
+                <ul>
+                    <li>Năm 2008: Quảng cáo biển tấm lớn cho Agribank và tập đoàn Fujitsu</li>
+                    <li>Hiện nay dịch vụ quảng cáo đang quảng cáo cho Công ty Bizman sản phẩm Dệt may Việt Nam tại biển quảng cáo tấm lớn trên trục đường Hà Nội - Nội Bài.</li>
+                    <li>Thiết kế và thi công biển quảng cáo thương hiệu Agribank trên nhà cao tầng:  Số 2 Láng Hạ, Chi nhánh Gia Lâm, Ocean Park...</li>
+                    <li>Thiết kế, tổ chức thi công biển hiệu nhiều Chi nhánh trong hệ thống ở địa bàn Hà Nội, trong đó có Trụ sở chính Agribank</li>
+                    <li>Tổ chức thi công trên 300 cabin ATM trong hệ thống.</li>
+                    <li>Nhiều năm thực hiện thiết kế và tổ chức thi công triển lãm Công nghệ Thông tin Agribank, và nhiều lần được kỷ niệm chương gian hàng đẹp nhất  do tổ chức IDG (Mỹ) bình chọn.</li>
+                </ul>          
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hr_big_red"></div>
+
+{% include modul_intro.html %}
+{% include modul_customer.html %}
+{% include modul_bottom.html %}
