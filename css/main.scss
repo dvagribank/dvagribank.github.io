@@ -25,6 +25,10 @@ $font-size-h2: $font-size-base*1.5;
 $font-size-h3: $font-size-base*1.2;
 $font-size-h4: $font-size-base;
 
+$carousel-control-width: 10%;
+$carousel-control-opacity: 0.3;
+$carousel-control-font-size: 36px;
+
 @import "bootstrap";
 
 // mixin
@@ -56,12 +60,36 @@ header {
 
 }
 .header_big {
+    max-height: 35em;
+    overflow: hidden;
 	
 }
 .header_small {
-	max-height: 30em;
+	max-height: 20em;
     overflow: hidden;
 
+}
+
+.dv_slideshow_caption {
+    font-family: "Noticia Text", serif;
+    font-size: 2.4em;
+    font-style: italic;
+    line-height: 1.2em;
+    -webkit-transition-delay: 3s; /* Safari */
+    transition-delay: 3s;
+    @media (max-width: $screen-md-max) {
+        font-size: 2em;
+    }
+    @media (max-width: $screen-sm-max) {
+        font-size: 1.8em;
+    }
+
+}
+.carousel-caption {
+    bottom: 250px;
+}
+.carousel-control {
+    padding-top: 15%;
 }
 
 // navigation 

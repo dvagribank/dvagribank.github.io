@@ -1,20 +1,24 @@
 <header class="header header_big text-center">
+{% if page.slideshow %}
     <div id="header_slideshow" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="http://placehold.it/1900x700" alt="slide 1">
+                <img src="{{ site.baseurl }}/imgs/slideshow/h0.jpg" alt="slide 1">
                 <div class="carousel-caption">
-                    <p class="dv_slideshow_caption text-uppercase  animated fadeInUp">đồng hành cùng hệ thống tài chính ngân hàng</p>
+                    <p class="dv_slideshow_caption animated fadeInDownBig">Đồng hành cùng hệ thống Tài chính Ngân hàng</p>
                 </div>
             </div>
+          
+           {% for item in page.slideshow %}
             <div class="item">
-                <img src="http://placehold.it/1900x700" alt="slide 2">
+                <img src="{{ item.url }}" alt="{{ item.name }}">
                 <div class="carousel-caption">
-                    <p class="dv_slideshow_caption text-uppercase  animated fadeInUp">đồng hành cùng hệ thống tài chính ngân hàng</p>
+                    <p class="dv_slideshow_caption animated fadeInDownBig">{{ item.title }}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
 
         <!-- Controls -->
@@ -27,5 +31,12 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+{% endif %}
+
+<div class="hblock">
+   <div class="container">
+    <div class="headline text-center">{{ page.headline }}</div>
+    </div>
+</div>
 </header>
 {% include site_nav.html %}
