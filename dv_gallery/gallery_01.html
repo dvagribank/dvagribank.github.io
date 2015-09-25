@@ -5,56 +5,55 @@ type: gallery
 title: "hinh anh gallery 1"
 desc: "gioi thieu qua ve noi dung hinh anh trong gallery"
 
-gallery_preview: http://placehold.it/600x400
+headline: "tham gia giải thể thao ngành ngân hàng 2014"
+
+gallery_preview: /imgs/gallery/hoithao2014/ht_preview.jpg
 permalink: /gallery/gallery_01/
 
 photos:
 - caption: "hinh anh 1"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt1.jpg
+  full: /imgs/gallery/hoithao2014/tt1f.jpg
 - caption: "hinh anh 2"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt2.jpg
+  full: /imgs/gallery/hoithao2014/tt2f.jpg
 - caption: "hinh anh 3"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt3.jpg
+  full: /imgs/gallery/hoithao2014/tt3f.jpg
 - caption: "hinh anh 4"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt4.jpg
+  full: /imgs/gallery/hoithao2014/tt4f.jpg
 - caption: "hinh anh 5"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt5.jpg
+  full: /imgs/gallery/hoithao2014/tt5f.jpg
 - caption: "hinh anh 6"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt6.jpg
+  full: /imgs/gallery/hoithao2014/tt6f.jpg
 - caption: "hinh anh 7"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt7.jpg
+  full: /imgs/gallery/hoithao2014/tt7f.jpg
 - caption: "hinh anh 8"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt8.jpg
+  full: /imgs/gallery/hoithao2014/tt8f.jpg
 - caption: "hinh anh 9"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
-
+  preview: /imgs/gallery/hoithao2014/tt9.jpg
+  full: /imgs/gallery/hoithao2014/tt9f.jpg
 - caption: "hinh anh 10"
-  preview: http://placehold.it/600x400
-  full: http://placehold.it/1000x700
+  preview: /imgs/gallery/hoithao2014/tt10.jpg
+  full: /imgs/gallery/hoithao2014/tt10f.jpg
+- caption: "hinh anh 11"
+  preview: /imgs/gallery/hoithao2014/tt11.jpg
+  full: /imgs/gallery/hoithao2014/tt11f.jpg
+
+
+
 ---
 
 <div class="container">
 <ul class="row list-unstyled">
 {% for item in page.photos %}
 <li class="col-xs-6">
-	<a href="{{ item.full }}"><img class="img-responsive" src="{{ item.preview }}" alt="{{ item.caption }}"></a>
+	<a href="#" data-featherlight="{{ item.full }}"><img class="img-responsive" src="{{ item.preview }}" alt="{{ item.caption }}"></a>
 	<p class="photo_caption">{{ item.caption }}</p>
 </li>
 {% endfor %}
