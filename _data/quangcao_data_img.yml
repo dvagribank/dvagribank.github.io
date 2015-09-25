@@ -2,25 +2,25 @@
   images:
   - caption: "img01"
     preview: /imgs/qc/qc1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc1f.jpg
   - caption: "img02"
     preview: /imgs/qc/qc2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc2f.jpg
   - caption: "img03"
     preview: /imgs/qc/qc3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc3f.jpg
   - caption: "img04"
     preview: /imgs/qc/qc4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc4f.jpg
   - caption: "img05"
     preview: /imgs/qc/qc5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc5f.jpg
   - caption: "img06"
     preview: /imgs/qc/qc6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc6f.jpg
   - caption: "img07"
     preview: /imgs/qc/qc7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc7f.jpg
   - caption: "img08"
     preview: /imgs/qc/qc8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/qc/qc8f.jpg

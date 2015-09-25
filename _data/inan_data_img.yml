@@ -2,153 +2,153 @@
   images:
   - caption: "img1"
     preview: /imgs/in/mm1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm1.jpg
   - caption: "img2"
     preview: /imgs/in/mm2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm2.jpg
   - caption: "img3"
     preview: /imgs/in/mm3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm3.jpg
   - caption: "img4"
     preview: /imgs/in/mm4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm4.jpg
   - caption: "img5"
     preview: /imgs/in/mm5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm5.jpg
   - caption: "img6"
     preview: /imgs/in/mm6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm6.jpg
   - caption: "img7"
     preview: /imgs/in/mm7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm7.jpg
   - caption: "img8"
     preview: /imgs/in/mm8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/mm8.jpg
 - name: "giám sát kỹ thuật in, hoàn thiện, phân loại sản phẩm và otk"
   images:
   - caption: "img1"
     preview: /imgs/in/gs1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs1.jpg
   - caption: "img2"
     preview: /imgs/in/gs2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs2.jpg
   - caption: "img3"
     preview: /imgs/in/gs3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs3.jpg
   - caption: "img4"
     preview: /imgs/in/gs4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs4.jpg
   - caption: "img5"
     preview: /imgs/in/gs5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs5.jpg
   - caption: "img6"
     preview: /imgs/in/gs6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs6.jpg
   - caption: "img7"
     preview: /imgs/in/gs7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs7.jpg
   - caption: "img8"
     preview: /imgs/in/gs8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/gs8.jpg
 - name: "sổ sách, tạp chí"
   images:
   - caption: "img01"
     preview: /imgs/in/ss1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss1.jpg
   - caption: "img02"
     preview: /imgs/in/ss2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss2.jpg
   - caption: "img03"
     preview: /imgs/in/ss3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss3.jpg
   - caption: "img04"
     preview: /imgs/in/ss4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss4.jpg
   - caption: "img05"
     preview: /imgs/in/ss5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss5.jpg
   - caption: "img06"
     preview: /imgs/in/ss6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss6.jpg
   - caption: "img07"
     preview: /imgs/in/ss7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss7.jpg
   - caption: "img08"
     preview: /imgs/in/ss8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss8.jpg
   - caption: "img09"
     preview: /imgs/in/ss9.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss9.jpg
   - caption: "img10"
     preview: /imgs/in/ss10.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss10.jpg
   - caption: "img11"
     preview: /imgs/in/ss11.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss11.jpg
   - caption: "img12"
     preview: /imgs/in/ss12.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ss12.jpg
 - name: "catalogue, lịch và các sản phẩm khác"
   images:
   - caption: "img01"
     preview: /imgs/in/ll1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll1.jpg
   - caption: "img02"
     preview: /imgs/in/ll2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll2.jpg
   - caption: "img03"
     preview: /imgs/in/ll3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll3.jpg
   - caption: "img04"
     preview: /imgs/in/ll4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll4.jpg
   - caption: "img05"
     preview: /imgs/in/ll5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll5.jpg
   - caption: "img06"
     preview: /imgs/in/ll6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll6.jpg
   - caption: "img07"
     preview: /imgs/in/ll7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll7.jpg
   - caption: "img08"
     preview: /imgs/in/ll8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/ll8.jpg
 - name: "sản phẩm đặc biệt"
   images:
   - caption: "img01"
     preview: /imgs/in/db1.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db1.jpg
   - caption: "img02"
     preview: /imgs/in/db2.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db2.jpg
   - caption: "img03"
     preview: /imgs/in/db3.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db3.jpg
   - caption: "img04"
     preview: /imgs/in/db4.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db4.jpg
   - caption: "img05"
     preview: /imgs/in/db5.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db5.jpg
   - caption: "img06"
     preview: /imgs/in/db6.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db6.jpg
   - caption: "img07"
     preview: /imgs/in/db7.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db7.jpg
   - caption: "img08"
     preview: /imgs/in/db8.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db8.jpg
   - caption: "img09"
     preview: /imgs/in/db9.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db9.jpg
   - caption: "img10"
     preview: /imgs/in/db10.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db10.jpg
   - caption: "img11"
     preview: /imgs/in/db11.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db11.jpg
   - caption: "img12"
     preview: /imgs/in/db12.jpg
-    full: http://placehold.it/1000x700
+    full: /imgs/in/db12.jpg

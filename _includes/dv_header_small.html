@@ -1,5 +1,5 @@
 <header class="header header_small">
-
+<div class="imageblock">
 {% if page.slideshow %}
 	{% for item in page.slideshow %}
 	<div>slide: {{ item.url }}</div>
@@ -9,7 +9,7 @@
 {% else %}
 	<img class="img-responsive" src="{{ site.cover }}" alt="cover image">
 {% endif %}
-
+</div>
 <div class="hblock">
    <div class="container">
     <div class="headline text-center">{{ page.headline }}</div>

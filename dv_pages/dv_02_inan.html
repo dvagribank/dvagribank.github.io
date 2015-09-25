@@ -9,9 +9,15 @@ preview: /imgs/intro/in.jpg
 permalink: /intro/dich_vu_in/
 
 slideshow:
-- url: hình ảnh dịch vụ in ấn 1
-- url: hình ảnh dịch vụ in ấn 2
-- url: hình ảnh dịch vụ in ấn 3
+- url: /imgs/slideshow/in1.jpg
+  name: "slide 2"
+  title: "Thân thiện - Chuyên nghiệp - Hiệu quả"
+- url: /imgs/slideshow/in2.jpg
+  name: "slide 3"
+  title: "Thân thiện - Chuyên nghiệp - Hiệu quả"
+- url: /imgs/slideshow/in3.jpg
+  name: "slide 4"
+  title: "Thân thiện - Chuyên nghiệp - Hiệu quả"
 ---
 <div class="container">
     <div class="row">
@@ -83,7 +89,7 @@ slideshow:
         <h3 class="section_title"><i class="fa fa-asterisk"></i> {{ record.name }} <i class="fa fa-asterisk"></i></h3> 
         {% if record.images %}{% for img in record.images %}
         <div class="col-xs-6 col-sm-3 nq_images">
-            <a href="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
+            <a href="#" data-featherlight="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
         </div>
         {% endfor %}{% endif %}
         <p class="clearfix" style="color:#eee;"><i class="fa fa-chevron-down"></i></p>

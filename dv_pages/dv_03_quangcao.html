@@ -9,9 +9,10 @@ preview: /imgs/intro/quangcao.jpg
 permalink: /intro/dich_vu_quang_cao/
 
 slideshow:
-- url: hình ảnh dịch vụ quảng cáo 1
-- url: hình ảnh dịch vụ quảng cáo 2
-- url: hình ảnh dịch vụ quảng cáo 3
+- url: /imgs/slideshow/qc1.jpg
+  name: "slide 2"
+  title: "Chất lượng - Thẩm mỹ - Tinh tế"
+
 ---
 <div class="container">
     <div class="row">
@@ -51,7 +52,7 @@ Thiết kế thi công lắp đặt cabin ATM tại Chi nhánh và các phòng G
         {% for record in site.data.quangcao_data_img %}
         <h3 class="section_title">{{ record.name }}</h3> {% if record.images %}{% for img in record.images %}
         <div class="col-xs-6 col-sm-3 nq_images">
-            <a href="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
+            <a href="#" data-featherlight="{{ img.full }}"><img class="img-responsive" src="{{ img.preview }}" alt="{{ img.caption }}"></a>
         </div>
         {% endfor %}{% endif %}
         <p class="clearfix" style="color:#eee;"><i class="fa fa-chevron-down"></i></p>
