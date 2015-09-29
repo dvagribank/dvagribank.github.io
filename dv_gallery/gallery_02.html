@@ -1,0 +1,66 @@
+---
+layout: page_small_header
+type: gallery
+
+title: "Hoạt động đoàn"
+desc: "Đoàn thanh niên tham gia công tác xã hội"
+
+headline: "Hoạt động văn nghệ"
+
+gallery_preview: /imgs/gallery/vannghe01/vn2.jpg
+permalink: /gallery/gallery_02/
+
+photos_vn01:
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn1.jpg
+  full: /imgs/gallery/vannghe01/vn1.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn2.jpg
+  full: /imgs/gallery/vannghe01/vn2.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn3.jpg
+  full: /imgs/gallery/vannghe01/vn3.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn4.jpg
+  full: /imgs/gallery/vannghe01/vn4.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn5.jpg
+  full: /imgs/gallery/vannghe01/vn5.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn6.jpg
+  full: /imgs/gallery/vannghe01/vn6.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn7.jpg
+  full: /imgs/gallery/vannghe01/vn7.jpg
+- caption: ""
+  preview: /imgs/gallery/vannghe01/vn8.jpg
+  full: /imgs/gallery/vannghe01/vn8.jpg
+
+
+
+
+
+---
+
+
+<div class="container">
+
+<p class="client_comment text-center">Đoàn thanh niên tổ chức chương trình giao lưu và tặng quà tại Trung tâm bảo trợ xã hội tỉnh Hoà Bình</p>
+
+<ul class="row list-unstyled">
+{% for item in page.photos_vn01 %}
+<li class="col-xs-6">
+	<a href="#" data-featherlight="{{ item.full }}"><img class="img-responsive" src="{{ item.preview }}" alt="{{ item.caption }}"></a>
+	<p class="photo_caption">{{ item.caption }}</p>
+</li>
+{% endfor %}
+</ul>
+</div>
+
+
+
+
+
+
+
+

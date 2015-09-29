@@ -14,17 +14,19 @@
 	<div class="col-xs-12 col-sm-6 col-md-6">
 		<h3 class="btm_title">Gallery</h3>
 		{% assign gall = site.pages | where: "type", "gallery" %}
-		<ul class="row list-unstyled">
+		
+		
 		{% for item in gall %}
-			<li>
+        <div class="row">
 				<div class="col-xs-6 col-sm-5"><a href="{{ item.permalink }}"><img class="img-responsive" src="{{ item.gallery_preview }}" alt="{{ item.title }}"></a></div>
 				<div class="btm_gallery_caption col-xs-6 col-sm-7">
 					<h4>{{ item.title }}</h4>
 					<p>{{ item.desc }}</p>
 				</div>
-			</li>
+        </div>
 		{% endfor %}
-		</ul>
+
+		
 	</div>
 
 	<div class="col-xs-12 col-sm-6 col-md-3">
