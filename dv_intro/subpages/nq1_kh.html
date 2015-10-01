@@ -1,8 +1,14 @@
 ---
 layout: page_small_header
 permalink: /intro/nq1/khach_hang/
+headline: "khách hàng truyền thống trung tâm dịch vụ ngân quỹ"
 ---
 
 <div class="container">
-Danh sach khach hang truyen thong cua trung tam ngan quy 1
+<div class="row">
+    {% for item in site.data.khachhangnq1 %}
+    <div class="col-xs-12 col-sm-4">{{ item.name }}</div>
+    {% endfor %}
+</div>
+    
 </div>

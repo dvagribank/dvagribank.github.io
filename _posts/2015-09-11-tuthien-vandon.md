@@ -6,6 +6,7 @@ title: "Lễ trao quà chương trình Chung tay giúp đỡ hộ nghèo khắc 
 preview: /imgs/news/tuthien02/tt2_preview.jpg
 summary: "Công ty Dịch vụ Agribank phối hợp cùng Chi nhánh Agribank tỉnh Bắc Giang và Chi nhánh Agribank tỉnh Quảng Ninh đã tổ chức thăm hỏi, tặng quà cho các hộ gia đình nghèo, bị thiệt hại nặng nề sau lũ, góp phần chia sẻ khó khăn, giúp bà con sớm ổn định cuộc sống."
 
+pic0: /imgs/news/tuthien02/tt2_0.jpg
 pic1: /imgs/news/tuthien02/t21.jpg
 pic2: /imgs/news/tuthien02/t22.jpg
 pic3: /imgs/news/tuthien02/t23.jpg
@@ -37,7 +38,7 @@ Bên cạnh nỗ lực ổn định, phát triển sản xuất kinh doanh, Côn
 
 ### Ông Đỗ Đình Hồng chủ tịch HĐTV cùng đại diện Công đoàn, đoàn thanh niên, và Chi nhánh Agribank Quảng ninh trao quà cho các hộ nghèo tại xã đảo Vạn Yên, huyện Vân Đồn
 
-![]({{ page.preview }})
+![]({{ page.pic0 }})
 
 ![]({{ page.pic2 }})
 

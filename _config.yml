@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""
 footer_copy: All right reserved.
 
-cover: /imgs/cover.png
+cover: /imgs/cover.jpg
 
 
 # Build settings
