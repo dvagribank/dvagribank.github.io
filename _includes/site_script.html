@@ -3,3 +3,14 @@
 <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/js/fl.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/js/dvagribank.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.cmm_slider').slick({
+    autoplay: true,
+      arrows: false,
+      dots: true
+  });
+});
+</script>

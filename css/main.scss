@@ -30,6 +30,8 @@ $carousel-control-opacity: 0.3;
 $carousel-control-font-size: 36px;
 
 @import "bootstrap";
+@import "slick";
+@import "slick-theme";
 
 // mixin
 
@@ -43,7 +45,7 @@ $carousel-control-font-size: 36px;
 
 
 header { 
-	background: $brand-primary; 
+	background: #A0C1E8; 
 	color: #fff;
 	position: relative;
     .hblock { 
@@ -55,6 +57,15 @@ header {
             padding: 1em 0;
             font-size: 2em;
             text-transform: uppercase;
+        }
+        .home_headline {
+            background: transparentize($brand-secondary,0.5);
+            height: 10em;
+        }
+        .dv_logo {
+            margin: 0 auto;
+            position: relative;
+            top: -3em;
         }
     }
 
@@ -86,7 +97,7 @@ header {
 
 }
 .carousel-caption {
-    bottom: 250px;
+    bottom: 220px;
 }
 .carousel-control {
     padding-top: 15%;

@@ -1,18 +1,18 @@
-- name: "ban điều hành"
+- name: "phòng kinh doanh và điều độ"
   images:
-  - caption: "img1"
-    preview: /imgs/nq/dieuhanh_1.jpg
-    full: /imgs/nq/dieuhanh_1.jpg
-  - caption: "img2"
-    preview: /imgs/nq/dieuhanh_2.jpg
-    full: /imgs/nq/dieuhanh_2.jpg
   - caption: "img3"
     preview: /imgs/nq/dieuhanh_3.jpg
     full: /imgs/nq/dieuhanh_3.jpg
   - caption: "img4"
     preview: /imgs/nq/dieuhanh_4.jpg
     full: /imgs/nq/dieuhanh_4.jpg
-- name: "cơ sở vật chất và an toàn kho quỹ"
+  - caption: "img1"
+    preview: /imgs/nq/dieuhanh_1.jpg
+    full: /imgs/nq/dieuhanh_1.jpg
+  - caption: "img2"
+    preview: /imgs/nq/dieuhanh_2.jpg
+    full: /imgs/nq/dieuhanh_2.jpg
+- name: "cơ sở vật chất, máy móc trang thiết bị và kho quỹ"
   images:
   - caption: "img1"
     preview: /imgs/nq/at_1.jpg

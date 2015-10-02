@@ -64,7 +64,11 @@ slideshow:
 <section class="section section_profit clearfix">
     <div class="col-xs-12 text-center nq_profit">
         <h4 class="section_title">Lợi ích đối với khách hàng sử dụng dịch vụ</h4>
-        <p class="client_comment">làm dạng slideshow giống như cách trình bày phần nhận xét của khách hàng</p>
+        <div class="cmm_slider">
+        {% for cmm in site.data.nganquy_profit %}
+        <p class="client_comment">{{ cmm.item }}</p>
+        {% endfor %}
+        </div>
     </div>
 </section>
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="189px" viewBox="0 0 600 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(260.000000, 4.000000)">
+                <path d="M71.5493713,80 L8.4506287,80 C3.78347945,80 0,76.216622 0,71.5495979 L0,8.45254692 C0,3.78337802 3.78347945,0 8.4506287,0 L71.5493713,0 C76.2165206,0 80,3.78337802 80,8.45254692 L80,71.5495979 C80,76.216622 76.2165206,80 71.5493713,80 L71.5493713,80 Z" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M27.3684211,76.4869261 L70.48011,76.4912281 C73.3864918,76.4912281 75.7787173,74.1036234 75.7787173,71.1976289 L75.7894737,28.0701754 L27.3684211,76.4869261" id="Fill-3" fill="#133729" sketch:type="MSShapeGroup"></path>
+                <path d="M70.5050322,4.21052632 L54.700995,4.21052632 L3.50877193,55.4594401 L3.50877193,71.1968568 C3.50877193,74.1043687 5.82526878,76.4869429 8.78464171,76.4869429 L24.3315285,76.4912281 L75.7830449,25.0387671 L75.7894737,9.48989934 C75.7894737,6.53310763 73.4001175,4.21052632 70.5050322,4.21052632 Z" id="Fill-4" fill="#9C213B" sketch:type="MSShapeGroup"></path>
+                <path d="M8.76923414,4.21052632 C5.82567729,4.21052632 3.51516633,6.51392267 3.51516633,9.45869026 L3.50877193,51.9298246 L51.2280702,4.22331112 L8.76923414,4.21052632" id="Fill-5" fill="#133729" sketch:type="MSShapeGroup"></path>
+                <path d="M29.4736842,75.7894737 C35.0866756,75.1502951 38.2803821,75.2222556 40.7017544,66.5235012 C40.6349579,65.048311 38.9775703,66.9616137 38.9775703,66.9616137 C38.9775703,66.9616137 31.5673363,66.479055 29.4736842,75.7894737 L29.4736842,75.7894737 Z" id="Fill-6" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M48.4210526,56.8421053 C48.4210526,56.8421053 48.3725952,67.5239568 38.0203301,68.0701754 C36.5533921,58.2316855 48.4210526,56.8421053 48.4210526,56.8421053 L48.4210526,56.8421053 Z" id="Fill-8" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M51.0416585,49.122807 C51.0416585,49.122807 41.1789597,51.5024412 45.1551426,62.4561404 C55.3036557,57.6165377 51.0416585,49.122807 51.0416585,49.122807 L51.0416585,49.122807 Z" id="Fill-10" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M47.0129844,40.7017544 C47.0129844,40.7017544 41.3686529,47.8187371 48.5840217,53.3333333 C54.5239784,47.3691313 48.8606425,41.473116 47.0129844,40.7017544 L47.0129844,40.7017544 Z" id="Fill-12" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M39.314291,33.6842105 C39.314291,33.6842105 38.5120652,44.0128284 48.2524767,44.2105263 C49.1705094,40.0896231 46.3595606,33.9983306 39.314291,33.6842105 L39.314291,33.6842105 Z" id="Fill-14" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M42.1052632,37.8931831 C30.7421875,37.0617462 33.1715753,28.0746687 33.1715753,28.0746687 C33.1715753,28.0746687 42.105263,28.7256716 42.1052632,37.8931831 Z" id="Fill-16" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M31.2544545,25.4266036 C31.5906825,28.2465885 33.5271345,30.4321931 34.5054159,30.877193 C34.5054159,30.877193 36.5700385,28.133909 37.0202853,25.4266036 C37.470532,22.7192982 35.6344489,20.1504676 34.9945565,19.1791532 C34.3546641,18.2078387 33.1562029,19.5611814 33.1562029,19.5611814 C33.1562029,19.5611814 30.9182265,22.6066188 31.2544545,25.4266036 Z" id="Fill-18" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M40.0119197,11.2280702 C40.0119197,11.2280702 41.4564207,15.8124671 37.7189556,19.1324013 C36.7086589,20.073813 34.2833897,21.1337207 32.6466669,21.754386 C32.6466669,21.754386 29.795057,13.4753782 40.0119197,11.2280702 Z" id="Fill-20" stroke="#7B152B" fill="#FADB25" sketch:type="MSShapeGroup"></path>
+                <path d="M49.1227901,4.91287528 C49.1227901,4.91287528 38.1477126,4.66942207 38.6107408,14.0350877 C38.6107408,14.0350877 43.2060767,14.0350877 46.3118598,11.1968811 C47.2269957,10.1897755 49.1293424,7.64496126 49.1227901,4.91287528 L49.1227901,4.91287528 Z" id="Fill-22" stroke="#7B152B" fill="#FFDA1A" sketch:type="MSShapeGroup"></path>
+            </g>
+            <text id="công-ty-dịch-vụ-agri" sketch:type="MSTextLayer" font-family="UTM HelvetIns" font-size="36" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="94.4501953" y="176">CÔNG TY DỊCH VỤ AGRIBANK</tspan>
+            </text>
+            <text id="ngân-hàng-nông-nghiệ-copy" sketch:type="MSTextLayer" font-family="UTM HelvetIns" font-size="18" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="64.2026367" y="125">NGÂN HÀNG NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN VIỆT NAM</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

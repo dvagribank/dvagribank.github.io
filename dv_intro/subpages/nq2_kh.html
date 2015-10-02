@@ -1,8 +1,20 @@
 ---
 layout: page_small_header
 permalink: /intro/nq2/khach_hang/
+headline: "khách hàng truyền thống trung tâm dịch vụ ngân quỹ miền nam"
 ---
 
 <div class="container">
-Danh sach khach hang truyen thong cua trung tam ngan quy 2
+<div class="row">
+    {% for item in site.data.khachhangnq2 %}
+    <div class="col-xs-12 col-sm-4">{{ item.name }}</div>
+    {% endfor %}
+</div>
+<br class="clearfix"><hr>
+
+<div class="row text-center">
+    <h3>Ngoài ra Trung tâm Dịch vụ Ngân quỹ Miền Nam còn phục vụ các ngân hàng khác:</h3>
+    <p>Ngân Hàng TNHH Một Thành Viên ANZ - Chi nhánh TP Hồ Chí Minh</p>
+    <p>Ngân Hàng TNHH Một Thành Viên Hong Leong Việt Nam - Chi nhánh TP Hồ Chí Minh</p>
+</div>
 </div>

@@ -35,10 +35,6 @@ Chủ tịch công đoàn - Ông Lê Minh Quang phát biểu tại Đại hội 
 
 Đồng chí Nguyễn Văn Minh - Đảng ủy viên - Thành viên HĐTV Agribank tặng hoa chúc mừng BCH Đảng ủy công ty khóa 4 
 
-![pic 7]({{ page.pic7 }})
-
-Đồng chí Nguyễn Văn Minh - Đảng ủy viên - Thành viên HĐTV Agribank chụp ảnh ra mắt BCH Đảng ủy công ty khóa 4 
-
 ![pic 1]({{ page.pic1 }})
 
 Đội văn nghệ của đoàn thanh niên Công ty biểu diễn văn nghệ chào mừng đại hội
