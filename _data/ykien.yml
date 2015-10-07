@@ -1,15 +1,28 @@
-- name: "Nguyễn Văn Đông"
-  title: "Trưởng phòng hành chính Agribank"
+- name: "Nguyễn Thị Hoàng Anh"
+  title: "Phụ trách phòng  hành chính Agribank Chi nhánh Long Biên"
   comm: "Chúng tôi  hoàn toàn an tâm và tin tưởng đối với những  sản phẩm in tại đây; những chứng chỉ có giá của Ngân hàng, đòi hỏi tính bảo mật cao, khó làm giả."
   
-- name: "Vũ Tuấn"
-  title: "Trưởng phòng hành chính Agribank Chi nhánh Trung Yên"
-  comm: "Lý do để tôi lựa chọn Dịch vụ ở Công ty Dịch vụ Agribank. là trong cùng hệ thống có nhiều thuận tiện trong việc trao đổi thông tin, cũng như việc cùng trao đổi sản phẩm dịch vụ, tạo công ăn việc làm, góp phần  giúp nhau cùng phát triển."
+- name: "Anh Tuấn"
+  title: "Phòng hành chính Agribank Chi nhánh Trung Yên"
+  comm: "Lý do để chúng tôi lựa chọn Dịch vụ ở Công ty Dịch vụ Agribank. là trong cùng hệ thống có nhiều thuận tiện trong việc trao đổi thông tin, cũng như việc cùng trao đổi sản phẩm dịch vụ, tạo công ăn việc làm, góp phần  giúp nhau cùng phát triển."
   
-- name: "Trần Văn Huy"
-  title: "Trưởng phòng hành chính Agribank Chi nhánh Cầu Giấy"
-  comm: "Qua  một thời gian hợp tác chúng tôi hoàn toàn tin tưởng vào chất lượng cũng như dịch vụ của Công ty. Rất mong công ty phát huy hết tiềm năng và thế mạnh của mình nhằm nâng cao chất lượng, giá cả hợp lý"
+- name: "Anh Toàn"
+  title: "Agribank Chi nhánh Bắc Hà Nội"
+  comm: "Qua một thời gian hợp tác chúng tôi hoàn toàn tin tưởng vào chất lượng cũng như dịch vụ của Công ty. Rất mong công ty phát huy hết tiềm năng và thế mạnh của mình!"
   
-- name: "Hoàng Lan Hương"
-  title: "Agribank Chi nhánh Long Biên"
+- name: "Anh Thành"
+  title: "Agribank Chi nhánh Bách Khoa"
   comm: "Chúng tôi rất hài lòng và tin tưởng với kết quả đạt được sau hợp đồng đầu tiên, và chuẩn bị ký kết những hợp đồng tiếp theo với Công ty"
+  
+- name: "Anh Phong"
+  title: "Agribank Chi nhánh Gia Lâm"
+  comm: "Chúng tôi đã in giấy tờ có giá tại đây, chất lượng tốt, thiết kế tinh xảo, đẹp. Tôi có thể hoàn toàn yên tâm khi giới thiệu  bạn tôi đến đây đặt hàng"
+  
+- name: "Agribank Chi nhánh Hoàng Mai"
+  title: ""
+  comm: "Trung tâm DVNQ phối hợp với Chi nhánh đã góp phần thực hiện cân đối thu – chi,  điều hòa vốn tiết giảm được chi phí dôi dư nguồn vốn. Góp phần giúp Chi nhánh cân đối tài chính thực hiện kinh doanh có hiệu quả."
+  
+- name: "Agribank Chi nhánh Bình Triệu"
+  title: ""
+  comm: "Khi thực hiện giao dịch nộp, rút tiền mặt qua Trung tâm dịch vụ ngân quỹ đã giúp cho Chi nhánh được thuận lợi hơn, đáp ứng yêu cầu thu chi tiền mặt kịp thời cho khách, tiết kiệm được thời gian, chi phí vốn, chi phí vận chuyển và nguồn nhân lực trong công tác ngân quỹ"
+  
