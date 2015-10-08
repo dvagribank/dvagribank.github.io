@@ -5,8 +5,6 @@
   fax: "043 852 1861"
   email: "khkdin1@gmai.com"
   links:
-  - name: "thư ngỏ"
-    linkto: "/intro/in1/gioi_thieu/"
   - name: "khách hàng truyền thống"
     linkto: "/intro/in1/khach_hang/"
 
@@ -17,7 +15,5 @@
   fax: "08 3923 4415"
   email: "nhainnganhang22014@gmail.com - chebaninh2@yahoo.com.vn"
   links:
-  - name: "thư ngỏ"
-    linkto: "/intro/in2/gioi_thieu/"
   - name: "khách hàng truyền thống"
     linkto: "/intro/in2/khach_hang/"

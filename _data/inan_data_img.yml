@@ -28,127 +28,127 @@
   images:
   - caption: "img1"
     preview: /imgs/in/gs1.jpg
-    full: /imgs/in/gs1.jpg
+    full: /imgs/in/gs1f.jpg
   - caption: "img2"
     preview: /imgs/in/gs2.jpg
-    full: /imgs/in/gs2.jpg
+    full: /imgs/in/gs2f.jpg
   - caption: "img3"
     preview: /imgs/in/gs3.jpg
-    full: /imgs/in/gs3.jpg
+    full: /imgs/in/gs3f.jpg
   - caption: "img4"
     preview: /imgs/in/gs4.jpg
-    full: /imgs/in/gs4.jpg
+    full: /imgs/in/gs4f.jpg
   - caption: "img5"
     preview: /imgs/in/gs5.jpg
-    full: /imgs/in/gs5.jpg
+    full: /imgs/in/gs5f.jpg
   - caption: "img6"
     preview: /imgs/in/gs6.jpg
-    full: /imgs/in/gs6.jpg
+    full: /imgs/in/gs6f.jpg
   - caption: "img7"
     preview: /imgs/in/gs7.jpg
-    full: /imgs/in/gs7.jpg
+    full: /imgs/in/gs7f.jpg
   - caption: "img8"
     preview: /imgs/in/gs8.jpg
-    full: /imgs/in/gs8.jpg
+    full: /imgs/in/gs8f.jpg
 - name: "sổ sách, tạp chí"
   images:
   - caption: "img01"
     preview: /imgs/in/ss1.jpg
-    full: /imgs/in/ss1.jpg
+    full: /imgs/in/ss1f.jpg
   - caption: "img02"
     preview: /imgs/in/ss2.jpg
-    full: /imgs/in/ss2.jpg
+    full: /imgs/in/ss2f.jpg
   - caption: "img03"
     preview: /imgs/in/ss3.jpg
-    full: /imgs/in/ss3.jpg
+    full: /imgs/in/ss3f.jpg
   - caption: "img04"
     preview: /imgs/in/ss4.jpg
-    full: /imgs/in/ss4.jpg
+    full: /imgs/in/ss4f.jpg
   - caption: "img05"
     preview: /imgs/in/ss5.jpg
-    full: /imgs/in/ss5.jpg
+    full: /imgs/in/ss5f.jpg
   - caption: "img06"
     preview: /imgs/in/ss6.jpg
-    full: /imgs/in/ss6.jpg
+    full: /imgs/in/ss6f.jpg
   - caption: "img07"
     preview: /imgs/in/ss7.jpg
-    full: /imgs/in/ss7.jpg
+    full: /imgs/in/ss7f.jpg
   - caption: "img08"
     preview: /imgs/in/ss8.jpg
-    full: /imgs/in/ss8.jpg
+    full: /imgs/in/ss8f.jpg
   - caption: "img09"
     preview: /imgs/in/ss9.jpg
-    full: /imgs/in/ss9.jpg
+    full: /imgs/in/ss9f.jpg
   - caption: "img10"
     preview: /imgs/in/ss10.jpg
-    full: /imgs/in/ss10.jpg
+    full: /imgs/in/ss10f.jpg
   - caption: "img11"
     preview: /imgs/in/ss11.jpg
-    full: /imgs/in/ss11.jpg
+    full: /imgs/in/ss11f.jpg
   - caption: "img12"
     preview: /imgs/in/ss12.jpg
-    full: /imgs/in/ss12.jpg
+    full: /imgs/in/ss12f.jpg
 - name: "catalogue, lịch và các sản phẩm khác"
   images:
   - caption: "img01"
     preview: /imgs/in/ll1.jpg
-    full: /imgs/in/ll1.jpg
+    full: /imgs/in/ll1f.jpg
   - caption: "img02"
     preview: /imgs/in/ll2.jpg
-    full: /imgs/in/ll2.jpg
+    full: /imgs/in/ll2f.jpg
   - caption: "img03"
     preview: /imgs/in/ll3.jpg
-    full: /imgs/in/ll3.jpg
+    full: /imgs/in/ll3f.jpg
   - caption: "img04"
     preview: /imgs/in/ll4.jpg
-    full: /imgs/in/ll4.jpg
+    full: /imgs/in/ll4f.jpg
   - caption: "img05"
     preview: /imgs/in/ll5.jpg
-    full: /imgs/in/ll5.jpg
+    full: /imgs/in/ll5f.jpg
   - caption: "img06"
     preview: /imgs/in/ll6.jpg
-    full: /imgs/in/ll6.jpg
+    full: /imgs/in/ll6f.jpg
   - caption: "img07"
     preview: /imgs/in/ll7.jpg
-    full: /imgs/in/ll7.jpg
+    full: /imgs/in/ll7f.jpg
   - caption: "img08"
     preview: /imgs/in/ll8.jpg
-    full: /imgs/in/ll8.jpg
+    full: /imgs/in/ll8f.jpg
 - name: "sản phẩm đặc biệt"
   images:
   - caption: "img01"
     preview: /imgs/in/db1.jpg
-    full: /imgs/in/db1.jpg
+    full: /imgs/in/db1f.jpg
   - caption: "img02"
     preview: /imgs/in/db2.jpg
-    full: /imgs/in/db2.jpg
+    full: /imgs/in/db2f.jpg
   - caption: "img03"
     preview: /imgs/in/db3.jpg
-    full: /imgs/in/db3.jpg
+    full: /imgs/in/db3f.jpg
   - caption: "img04"
     preview: /imgs/in/db4.jpg
-    full: /imgs/in/db4.jpg
+    full: /imgs/in/db4f.jpg
   - caption: "img05"
     preview: /imgs/in/db5.jpg
-    full: /imgs/in/db5.jpg
+    full: /imgs/in/db5f.jpg
   - caption: "img06"
     preview: /imgs/in/db6.jpg
-    full: /imgs/in/db6.jpg
+    full: /imgs/in/db6f.jpg
   - caption: "img07"
     preview: /imgs/in/db7.jpg
-    full: /imgs/in/db7.jpg
+    full: /imgs/in/db7f.jpg
   - caption: "img08"
     preview: /imgs/in/db8.jpg
-    full: /imgs/in/db8.jpg
+    full: /imgs/in/db8f.jpg
   - caption: "img09"
     preview: /imgs/in/db9.jpg
-    full: /imgs/in/db9.jpg
+    full: /imgs/in/db9f.jpg
   - caption: "img10"
     preview: /imgs/in/db10.jpg
-    full: /imgs/in/db10.jpg
+    full: /imgs/in/db10f.jpg
   - caption: "img11"
     preview: /imgs/in/db11.jpg
-    full: /imgs/in/db11.jpg
+    full: /imgs/in/db11f.jpg
   - caption: "img12"
     preview: /imgs/in/db12.jpg
-    full: /imgs/in/db12.jpg
+    full: /imgs/in/db12f.jpg

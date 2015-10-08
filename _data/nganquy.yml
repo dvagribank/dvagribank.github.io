@@ -5,8 +5,6 @@
   fax: "04 3573 6665"
   email: "ttdvnq@gmail.com"
   links:
-  - name: "thư ngỏ"
-    linkto: "/intro/nq1/gioi_thieu/"
   - name: "khách hàng truyền thống"
     linkto: "/intro/nq1/khach_hang/"
 
@@ -17,7 +15,5 @@
   fax: "08 3923 9892"
   email: "ttdvnq@gmail.com"
   links:
-  - name: "thư ngỏ"
-    linkto: "/intro/nq2/gioi_thieu/"
   - name: "khách hàng truyền thống"
     linkto: "/intro/nq2/khach_hang/"
