@@ -1,10 +1,10 @@
 ---
 layout: news
 type: news
-group: "văn nghệ, thể thao"
+group: "hoạt động nội bộ"
 title: "Đoàn thể thao công ty giành giải nhất hội thao ngành ngân hàng"
 preview: /imgs/news/thethao_preview.jpg
-summary: "Viết một đoạn ngắn tóm tắt nội dung khoảng 2 dòng ở đây"
+summary: "Đoạn nội dung tóm tắt viết vào đây..."
 ---
 
 Nội dung bài viết bắt đầu từ đây.

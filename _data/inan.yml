@@ -3,6 +3,8 @@
   address: "số 10 Chùa Bộc, Quận Đống Đa, Hà Nội"
   phone: "043 852 5586"
   fax: "043 852 1861"
+  ct1: "Phòng Hành chính: 04 3852 2125"
+  ct2: "Phòng Kinh doanh: 04 3852 5586"
   email: "khkdin1@gmai.com"
   links:
   - name: "khách hàng truyền thống"
@@ -14,6 +16,8 @@
   phone: "08 3838 2783 – 3923 4415"
   fax: "08 3923 4415"
   email: "nhainnganhang22014@gmail.com - chebaninh2@yahoo.com.vn"
+  ct1: "Phòng Hành chính: 08 3838 2781"
+  ct2: "Phòng Kinh doanh: 08 3838 2783"
   links:
   - name: "khách hàng truyền thống"
     linkto: "/intro/in2/khach_hang/"

@@ -15,7 +15,7 @@ submenu:
 ---
 <div class="container">
 <div class="row">
-	<div class="col-xs-12 col-sm-8">
+	<div class="col-xs-12 col-md-6">
 		<ul class="list-unstyled">
 		{% for post in site.posts | where: "type", "news" | limit: 10 %}
 			<li>
@@ -27,7 +27,7 @@ submenu:
 		</ul>
 	</div>
 
-	<div class="col-xs-12 col-sm-4">
+	<div class="col-xs-12 col-md-6">
 		{% include dv_sidebar.html %}
 	</div>
 </div>

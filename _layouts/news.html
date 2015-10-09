@@ -7,8 +7,15 @@
   	<div class="hr-topbar"></div>
   	{% include dv_header_small.html %}
 
-  	<div class="container">
-    {{ content }}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                {{ content }}
+            </div>
+            <div class="col-xs-12 col-md-3">
+                {% include dv_sidebar.html %}
+            </div>
+        </div>
     </div>
 
 

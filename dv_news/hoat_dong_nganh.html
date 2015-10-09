@@ -9,20 +9,23 @@ permalink: /news/hoat_dong_nganh/
 ---
 <div class="container">
 <div class="row">
-	<div class="col-xs-12 col-sm-8">
+	<div class="col-xs-12 col-md-9">
 	{% assign posts = site.posts | where: "group", "hoạt động ngành" %}
-		<ul class="list-unstyled">
 		{% for post in posts %}
-			<li>
-				<img class="img-responsive" src="{{ post.preview }}">
-				<h3>{{ post.title }}</h3>
-				<p>{{ post.summary }}. <a href="{{ post.url }}">xem chi tiết...</a></p>
-			</li>
+        <div class="row">
+            <h3 class="col-xs-12"><strong>{{ post.title }}</strong></h3>
+            <div class="col-xs-12 col-sm-6">
+                <img class="img-responsive" src="{{ post.preview }}">
+            </div>
+            <div class="col-xs-12 col-sm-6 text-justify">
+                <p>{{ post.summary }}.<br><a href="{{ post.url }}">xem chi tiết...</a></p>
+            </div>
+        </div>
+        <hr>
 		{% endfor %}
-		</ul>
 	</div>
 
-	<div class="col-xs-12 col-sm-4">
+	<div class="col-xs-12 col-md-3">
 		{% include dv_sidebar.html %}
 	</div>
 </div>

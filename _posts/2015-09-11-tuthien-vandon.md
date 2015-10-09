@@ -1,10 +1,10 @@
 ---
 layout: news
 type: news
-group: "hoạt động xã hội"
+group: "hoạt động nội bộ"
 title: "Lễ trao quà chương trình Chung tay giúp đỡ hộ nghèo khắc phục khó khăn sau lũ tại Vân Đồn"
 preview: /imgs/news/tuthien02/tt2_preview.jpg
-summary: "Công ty Dịch vụ Agribank phối hợp cùng Chi nhánh Agribank tỉnh Bắc Giang và Chi nhánh Agribank tỉnh Quảng Ninh đã tổ chức thăm hỏi, tặng quà cho các hộ gia đình nghèo, bị thiệt hại nặng nề sau lũ, góp phần chia sẻ khó khăn, giúp bà con sớm ổn định cuộc sống."
+summary: "Trận mưa lũ lớn nhất trong 50 năm ở Quảng Ninh cuối tháng 7/2015 đã gây thiệt hại lớn, trong đó Vân Đồn là một trong những huyện chịu ảnh hưởng nặng nề khiến cuộc sống của bà con nơi đây càng thêm khó khăn. Hưởng ứng lời kêu gọi của UBTW Mặt trận Tổ quốc Việt Nam, phát huy tinh thần tương thân tương ái, Công ty Dịch vụ Agribank cùng Chi nhánh Agribank tỉnh Quảng Ninh đã vận động cán bộ công nhân viên quyên góp gạo, tiền và đến tận nơi thăm hỏi, trao 35 suất quà cho các hộ nghèo tại xã đảo Vạn Yên, huyện Vân Đồn. Trong chuyến đi này, về phía Công ty có đồng chí Đỗ Đình Hồng - Bí thư Đảng ủy, Chủ tịch HĐTV cùng đại diện Công đoàn và Đoàn Thanh niên."
 
 pic0: /imgs/news/tuthien02/tt2_0.jpg
 pic1: /imgs/news/tuthien02/t21.jpg

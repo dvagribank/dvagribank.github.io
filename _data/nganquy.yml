@@ -4,6 +4,8 @@
   phone: "04 3573 8137 – 04 3573 5087"
   fax: "04 3573 6665"
   email: "ttdvnq@gmail.com"
+  ct1: "Phòng Hành chính: 04 3573 6663"
+  ct2: "Phòng Kinh doanh: 04 3573 8137 / 3573 5087"
   links:
   - name: "khách hàng truyền thống"
     linkto: "/intro/nq1/khach_hang/"
@@ -14,6 +16,8 @@
   phone: "08 3923 9895"
   fax: "08 3923 9892"
   email: "ttdvnq@gmail.com"
+  ct1: "Phòng Hành chính: 08 3924 5349"
+  ct2: "Phòng Kinh doanh: 08 3923 9895"
   links:
   - name: "khách hàng truyền thống"
     linkto: "/intro/nq2/khach_hang/"
