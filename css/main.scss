@@ -163,9 +163,9 @@ ul.dropdown-menu li a:hover { background: lighten($brand-primary,15%); }
 }
 
 .section_intro {
-	padding: 2em 0 5em;
+	padding: 1em 0;
     .intro_item_title { margin: 0; padding: 1em 0; color: #fff; background: $brand-primary; }
-    .intro_item_desc { padding: 2em 0; }
+    .intro_item_desc { padding: 2em 0 0; }
 }
 
 .section_video {
@@ -178,19 +178,19 @@ ul.dropdown-menu li a:hover { background: lighten($brand-primary,15%); }
 }
 
 .section_customer {
-	padding: 5em 0;
+	padding: 1em 0;
 	background: #ddd;
 }
 .client_comment {
     font-family: "Noticia Text", serif;
     font-style: italic;
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: $brand-secondary;
 }
 
 .introtext { padding-top: 3em; }
 .section_news {
-	padding: 2em 0 5em;
+	padding: 0 0 5em;
 	.news_title {
 		font-weight: bold;
 		line-height: 1.4em;
@@ -200,7 +200,7 @@ ul.dropdown-menu li a:hover { background: lighten($brand-primary,15%); }
 .section_btm {
 	background: $brand-secondary;
 	color: #fff;
-	padding: 5em 0;
+	padding: 1em 0;
 	.btm_title {
 		padding-bottom: 0.5em;
 		border-bottom: 1px solid #fff;
@@ -217,7 +217,7 @@ footer {
 
 .nq_title {
 	margin: 0;
-	margin-top: 3em;
+	margin-top: 1em;
     padding: 0.5em 0;
 	text-transform: uppercase;
 }

@@ -4,12 +4,12 @@
             <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
                 <h3 class="section_title">nhận xét của khách hàng</h3>
-                <hr>
+
                 <div class="cmm_slider">
                    {% for item in site.data.ykien %}
                    <div class="cmm_slider_item">
                     <p class="client_comment">{{ item.comm }}</p>
-                    <hr>
+
                     <p class="client_name"><strong>{{ item.name }}</strong> - {{ item.title }}</p>
                     </div>
                     {% endfor %}
