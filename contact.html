@@ -22,6 +22,7 @@ headline: "Liên hệ với chúng tôi"
 		<div class="col-xs-12 col-sm-6 text-center">
 			<h3 class="ct_title">{{ nq.title }}</h3>
 			<div class="nq_info">
+				<p>Địa chỉ: {{ nq.address }}</p>
 				<p>{{ nq.ct1 }}</p>
 				<p>{{ nq.ct2 }}</p>
 				<p>Fax: {{ nq.fax }}</p>				
@@ -35,6 +36,7 @@ headline: "Liên hệ với chúng tôi"
 		<div class="col-xs-12 col-sm-6 text-center">
 			<h3 class="ct_title">{{ in.title }}</h3>
 			<div class="nq_info">
+				<p>Địa chỉ: {{ in.address }}</p>
 				<p>{{ in.ct1 }}</p>
 				<p>{{ in.ct2 }}</p>
 				<p>Fax: {{ in.fax }}</p>				
@@ -47,12 +49,22 @@ headline: "Liên hệ với chúng tôi"
 		<div class="col-xs-12 col-sm-4 text-center">
 			<h3 class="ct_title">{{ in.title }}</h3>
 			<div class="nq_info">
+				<p>Địa chỉ: {{ in.address }}</p>
 				<p>Điện thoại: {{ in.phone }}</p>
 				<p>Fax: {{ in.fax }}</p>				
 				<p>Email: {{ in.email }}</p>				
 			</div>
 		</div>
 	{% endfor %}
+
+<div class="col-xs-12 col-sm-6 text-center">
+    <h3 class="ct_title">miền bắc</h3>
+    <div id="map" style="height: 400px;">map1</div>
+</div>
+<div class="col-xs-12 col-sm-6 text-center">
+    <h3 class="ct_title">miền nam</h3>
+    <div id="map2" style="height: 400px;">map2</div>
+</div>
 
 
     </div>

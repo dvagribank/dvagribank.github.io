@@ -15,3 +15,63 @@ $(document).ready(function(){
   });
 });
 </script>
+
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibmlrZW5obiIsImEiOiJjaWZ0N3VzdXEwbzV1dXZrcW5qZHJkNjNmIn0.mnxi4Jl-rwXdnVoQbMcOpA';
+var map = L.mapbox.map('map', 'mapbox.streets')
+    .setView([21.007919, 105.82881], 16);
+
+L.mapbox.featureLayer({
+    // this feature is in the GeoJSON format: see geojson.org
+    // for the full specification
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        // coordinates here are in longitude, latitude order because
+        // x, y is the standard for GeoJSON and many formats
+        coordinates: [
+          105.82881,
+          21.007919
+        ]
+    },
+    properties: {
+        title: 'Công ty TNHH MTV Dịch vụ Agribank',
+        description: 'Số 10 Chùa Bộc, Đống Đa, Hà Nội',
+        // one can customize markers by adding simplestyle properties
+        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+        'marker-size': 'large',
+        'marker-color': '#ff0000',
+
+    }
+}).addTo(map);
+    
+var map2 = L.mapbox.map('map2', 'mapbox.streets')
+    .setView([10.756318, 106.683789], 16);
+
+L.mapbox.featureLayer({
+    // this feature is in the GeoJSON format: see geojson.org
+    // for the full specification
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        // coordinates here are in longitude, latitude order because
+        // x, y is the standard for GeoJSON and many formats
+        coordinates: [
+          106.683789,
+          10.756318
+        ]
+    },
+    properties: {
+        title: 'Công ty TNHH MTV Dịch vụ Agribank',
+        description: 'Số 422 Trần Hưng Đạo, Quận 5, TP. Hồ Chí Minh',
+        // one can customize markers by adding simplestyle properties
+        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+        'marker-size': 'large',
+        'marker-color': '#ff0000',
+
+    }
+}).addTo(map2);
+    
+
+</script>
