@@ -7,8 +7,10 @@
 	{% assign intro_items = site.pages | where: "pos", "intro" | sort: "sort" %}
 	{% for item in intro_items %}
 	<div class="col-xs-12 col-sm-4 text-center">
-        <a href="{{ item.permalink }}"><img class="img-responsive" src="{{ item.preview }}"></a>
-		<h3 class="intro_item_title text-uppercase">{{ item.title }}</h3>
+        <a href="{{ item.permalink }}">
+        	<img class="img-responsive" src="{{ item.preview }}">
+			<h3 class="intro_item_title text-uppercase">{{ item.title }}</h3>
+		</a>
 		<p class="intro_item_desc">{{ item.desc }}<br><br><a class="btn btn-primary" href="{{ item.permalink }}">xem chi tiết</a></p>
 	</div>
 	{% endfor %}
