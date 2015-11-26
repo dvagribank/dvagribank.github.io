@@ -1,4 +1,5 @@
 # Site settings
+host: 0.0.0.0
 title: dvagribank
 email: email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
